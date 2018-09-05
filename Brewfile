@@ -16,8 +16,12 @@ cask_args appdir: '/Applications'
   brew 'gettext'
   # Library for command-line editing
   brew 'readline'
+  # Collection of portable C++ source libraries
+  brew 'boost'
   # Image manipulation library
   brew 'jpeg'
+  # Library for manipulating PNG images
+  brew 'libpng'
 
   ## Mac OS X
   brew 'm-cli'
@@ -60,6 +64,8 @@ cask_args appdir: '/Applications'
   ## Image
   # Streamlined and convenient image viewer and browser
   cask 'xee'
+  # Perl lib for reading and writing EXIF metadata
+  brew 'exiftool'
 ### }}}
 
 
@@ -114,6 +120,8 @@ cask_args appdir: '/Applications'
   ## Golang
   # Open source programming language to build simple/reliable/efficient software
   brew 'go'
+  # Go cross compile tool
+  brew 'gox'
 
   ## Java
   # Java Standard Edition Development Kit 8
@@ -123,6 +131,12 @@ cask_args appdir: '/Applications'
   brew 'ant'
   # Java-based project management
   brew 'maven'
+
+  ## Scala
+  # JVM-based programming language
+  brew 'scala', args: ['with-docs', 'with-src']
+  # Build tool for Scala projects
+  brew 'sbt'
 
   ## C Family
   # GNU compiler collection
@@ -140,6 +154,10 @@ cask_args appdir: '/Applications'
   # Package manager for the Lua programming language
   brew 'luarocks'
 
+  ## Haskell
+  # Glorious Glasgow Haskell Compilation System
+  brew 'ghc'
+
   ## Ruby
   # Powerful, clean, object-oriented scripting language
   brew 'ruby'
@@ -156,6 +174,8 @@ cask_args appdir: '/Applications'
   brew 'git'
   # Small git utilities
   brew 'git-extras'
+  # Text interface for Git repositories
+  brew 'tig'
   # OS X status bar application for Github
   cask 'gitee'
   # Extend your GitHub workflow beyond your browser <Paste>
@@ -170,9 +190,11 @@ cask_args appdir: '/Applications'
 
 
 ### Code Editor & IDE {{{
-  ## Editors
+  ## Editor
   # Vim
   brew 'neovim'
+  brew 'vim', args: ['with-gettext', 'with-lua', 'with-luajit', 'with-tcl']
+  cask 'macvim'
   # Microsoft Visual Studio Code
   cask 'visual-studio-code'
 
@@ -184,11 +206,30 @@ cask_args appdir: '/Applications'
 
 
 ### Terminal {{{
+  ## Terminal Emulator
   # Terminal Emulator for macOS
   cask 'iterm2'
+
+  ## Utility
   # Opens a terminal window to the current directory in Finder
   # INFO: Need to set up manually
   cask 'go2shell'
+
+  ## Shell: Bash
+  # Bourne-Again SHell, a UNIX command interpreter
+  brew 'bash'
+  # Programmable completion for Bash 4.1+
+  brew 'bash-completion@2'
+
+  ## Shell: Fish
+  # User-friendly command-line shell for UNIX-like operating systems
+  # INFO: Need to add `/usr/local/bin/fish` to `/etc/shells`
+  brew 'fish'
+
+  ## Shell: Zsh
+  # UNIX shell (command interpreter)
+  # INFO: Need to add `/usr/local/bin/zsh` to `/etc/shells`
+  brew 'zsh', args: ['with-gdbm', 'with-pcre']
 #}}}
 
 
@@ -219,13 +260,23 @@ cask_args appdir: '/Applications'
 
 
 ### DevOps {{{
+  # Tool to build, change, and version infrastructure
+  brew 'terraform'
+
   # Tool for building and managing virtual machine environments
   cask 'vagrant'
   # Manage your vagrant machines in one place
   cask 'vagrant-manager'
+
+  # Tool for creating identical machine images for multiple platforms
+  brew 'packer'
+  # Automate deployment, configuration, and upgrading
+  brew 'ansible'
 ### }}}
 
 ### Cryptography {{{
+  # SSL/TLS cryptography library
+  brew 'openssl'
   # Enhanced version of john, a UNIX password cracker
   brew 'john-jumbo'
   # Suite of barcodes-reading tools
