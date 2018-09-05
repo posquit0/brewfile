@@ -16,12 +16,16 @@ cask_args appdir: '/Applications'
   brew 'gettext'
   # Library for command-line editing
   brew 'readline'
+  # GNU multiple precision arithmetic library
+  brew 'gmp'
   # Collection of portable C++ source libraries
   brew 'boost'
   # Image manipulation library
   brew 'jpeg'
   # Library for manipulating PNG images
   brew 'libpng'
+  # TIFF library and utilities
+  brew 'libtiff'
 
   ## Mac OS X
   brew 'm-cli'
@@ -34,6 +38,15 @@ cask_args appdir: '/Applications'
   brew 'ctop'
 ### }}}
 
+
+### File System {{{
+  ## Cloud
+  cask 'google-drive-file-stream'
+
+  ## Recovery
+  # Console program to recover files based on their headers and footers
+  brew 'foremost'
+### }}}
 
 ### Web {{{
   ## Web Browser
@@ -174,6 +187,10 @@ cask_args appdir: '/Applications'
   brew 'git'
   # Small git utilities
   brew 'git-extras'
+  # Extensions to follow Vincent Driessen's branching model
+  brew 'git-flow'
+  # Prevents you from committing sensitive information to a git repo
+  brew 'git-secrets'
   # Text interface for Git repositories
   brew 'tig'
   # OS X status bar application for Github
@@ -190,12 +207,15 @@ cask_args appdir: '/Applications'
 
 
 ### Code Editor & IDE {{{
-  ## Editor
-  # Vim
-  brew 'neovim'
+  ## Editor: Vim
+  # Vi 'workalike' with many additional features
   brew 'vim', args: ['with-gettext', 'with-lua', 'with-luajit', 'with-tcl']
+  # GUI for vim, made for macOS
   cask 'macvim'
-  # Microsoft Visual Studio Code
+  # Ambitious Vim-fork focused on extensibility and agility
+  brew 'neovim'
+
+  ## Editor: Microsoft Visual Studio Code
   cask 'visual-studio-code'
 
   ## IDE
@@ -256,6 +276,15 @@ cask_args appdir: '/Applications'
   ## Container
   # Docker Community Edition for Mac (Edge)
   cask 'docker-edge'
+### }}}
+
+
+### Development {{{
+  # Cross-platform make
+  brew 'cmake'
+  # Generic library support script
+  # INFO: In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+  brew 'libtool'
 ### }}}
 
 
