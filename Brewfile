@@ -178,6 +178,18 @@ cask_args appdir: '/Applications'
   ## Verilog
   # Verilog simulation and synthesis tool
   brew 'icarus-verilog'
+
+  ## Android
+  brew ''
+### }}}
+
+
+### Device {{{
+  ## Android
+  # Android SDK Platform-Tools
+  cask 'android-platform-tools'
+  # Android File Transfer
+  cask 'android-file-transfer'
 ### }}}
 
 
