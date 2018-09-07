@@ -16,16 +16,26 @@ cask_args appdir: '/Applications'
   brew 'gettext'
   # Library for command-line editing
   brew 'readline'
+  # Core application library for C
+  brew 'glib'
+  # GNU Transport Layer Security (TLS) Library
+  brew 'gnutls'
   # GNU multiple precision arithmetic library
   brew 'gmp'
   # Collection of portable C++ source libraries
   brew 'boost'
+  # Vector graphics library with cross-device output support
+  brew 'cairo'
+  # Framework for layout and rendering of i18n text
+  brew 'pango'
   # Image manipulation library
   brew 'jpeg'
   # Library for manipulating PNG images
   brew 'libpng'
   # TIFF library and utilities
   brew 'libtiff'
+  # Software library to render fonts
+  brew 'freetype'
 
   ## Mac OS X
   # Homebrew GUI App for OS X
@@ -328,6 +338,10 @@ cask_args appdir: '/Applications'
 
 
 ### Development {{{
+  # Automatic configure script builder
+  brew 'autoconf'
+  # Tool for generating GNU Standards-compliant Makefiles
+  brew 'automake'
   # Cross-platform make
   brew 'cmake'
   # Generic library support script
@@ -349,6 +363,9 @@ cask_args appdir: '/Applications'
   brew 'packer'
   # Automate deployment, configuration, and upgrading
   brew 'ansible'
+
+  # Enables you to reproduce the CircleCI environment locally
+  brew 'circleci'
 ### }}}
 
 ### Cryptography {{{
