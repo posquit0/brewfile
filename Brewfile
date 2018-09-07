@@ -32,6 +32,8 @@ cask_args appdir: '/Applications'
   cask 'cakebrew'
   # Mac App Store command line interface
   brew 'mas'
+  # System Utilities for macOS
+  cask 'onyx'
   # Swiss Army Knife for macOS
   brew 'm-cli'
 
@@ -121,8 +123,18 @@ cask_args appdir: '/Applications'
   ## Utility
   # MAC spoofing GUI for macOS
   cask 'linkliar'
+### }}}
+
+
+### Keyboard & Mouse {{{
   # Network KVM Switch(Mouse and Keyboard Sharing)
   cask 'synergy'
+  # Customize various input devices on your Mac
+  cask 'bettertouchtool'
+  # Know your short cuts
+  cask 'cheatsheet'
+  # A powerful and stable keyboard customizer for macOS
+  cask 'karabiner-elements'
 ### }}}
 
 
@@ -132,6 +144,9 @@ cask_args appdir: '/Applications'
   brew 'p7zip'
   # General-purpose data compression with high compression ratio
   brew 'xz'
+
+  # Boosts your efficiency with hotkeys, keywords, text expansion and more
+  cask 'alfred'
 ### }}}
 
 
