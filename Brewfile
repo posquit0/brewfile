@@ -72,18 +72,31 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
-### Media {{{
-  ## Video
+### Video {{{
+  ## Player
   # VLC media player
   cask 'vlc'
   # Home theater/media center software and entertainment hub for digital media
   cask 'kodi'
 
-  ## Image
+  ## Recorder
+  # An open-source screen recorder built with web technology
+  cask 'kap'
+### }}}
+
+
+### Image {{{
+  ## Viewer
   # Streamlined and convenient image viewer and browser
   cask 'xee'
+
+  ## Utility
   # Perl lib for reading and writing EXIF metadata
   brew 'exiftool'
+
+  ## UI/UX
+  # Connected space for product teams
+  cask 'zeplin'
 ### }}}
 
 
@@ -104,6 +117,12 @@ cask_args appdir: '/Applications'
   ## Proxy & VPN
   # Free software for OpenVPN on OS X
   cask 'tunnelblick'
+
+  ## Utility
+  # MAC spoofing GUI for macOS
+  cask 'linkliar'
+  # Network KVM Switch(Mouse and Keyboard Sharing)
+  cask 'synergy'
 ### }}}
 
 
@@ -346,6 +365,21 @@ cask_args appdir: '/Applications'
   cask 'caskroom/fonts/font-nanumgothic'
   cask 'caskroom/fonts/font-nanumgothiccoding'
   cask 'caskroom/fonts/font-nanummyeongjo'
+
+  ## Font Family: Open Sans
+  cask 'caskroom/fonts/font-open-sans'
+  cask 'caskroom/fonts/font-open-sans-condensed'
+
+  ## Font Family: ETC
+  cask 'caskroom/fonts/font-ubuntu'
+  cask 'caskroom/fonts/font-source-han-noto-cjk'
+  cask 'caskroom/fonts/font-source-code-pro'
+  cask 'caskroom/fonts/font-sofia'
+  cask 'caskroom/fonts/font-roboto'
+  cask 'caskroom/fonts/font-hack'
+  cask 'caskroom/fonts/font-d2coding'
+  cask 'caskroom/fonts/font-inconsolata'
+  cask 'caskroom/fonts/font-dejavu-sans'
 
   ## Font Family: Powerline
   cask 'caskroom/fonts/font-anonymice-powerline'
