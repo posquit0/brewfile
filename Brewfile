@@ -1,6 +1,6 @@
 # Brewfile
 #
-# Maintained by Claud D. Park <posquit0.bj@gmail.com>
+# Maintained by ByungjinPark <posquit0.bj@gmail.com>
 # http://www.posquit0.com/
 
 
@@ -28,6 +28,11 @@ cask_args appdir: '/Applications'
   brew 'libtiff'
 
   ## Mac OS X
+  # Homebrew GUI App for OS X
+  cask 'cakebrew'
+  # Mac App Store command line interface
+  brew 'mas'
+  # Swiss Army Knife for macOS
   brew 'm-cli'
 
   ## Monitoring
@@ -178,9 +183,6 @@ cask_args appdir: '/Applications'
   ## Verilog
   # Verilog simulation and synthesis tool
   brew 'icarus-verilog'
-
-  ## Android
-  brew ''
 ### }}}
 
 
@@ -328,4 +330,36 @@ cask_args appdir: '/Applications'
   # XML-based font configuration API for X Windows
   brew 'fontconfig'
 
+  ## Font Family: Icons
+  # Most popular icon toolkit
+  cask 'caskroom/fonts/font-fontawesome'
+  # Simple and Minimal Line Icons
+  cask 'caskroom/fonts/font-simple-line-icons'
+  # Material Design icons by Google
+  cask 'caskroom/fonts/font-material-icons'
+  # An iconic font made for developers
+  cask 'caskroom/fonts/font-devicons'
+  # WordPress admin icon font
+  cask 'caskroom/fonts/font-dashicons'
+
+  ## Font Family: Nanum
+  cask 'caskroom/fonts/font-nanumgothic'
+  cask 'caskroom/fonts/font-nanumgothiccoding'
+  cask 'caskroom/fonts/font-nanummyeongjo'
+
+  ## Font Family: Powerline
+  cask 'caskroom/fonts/font-anonymice-powerline'
+  cask 'caskroom/fonts/font-consolas-for-powerline'
+  cask 'caskroom/fonts/font-dejavu-sans-mono-for-powerline'
+  cask 'caskroom/fonts/font-droid-sans-mono-for-powerline'
+  cask 'caskroom/fonts/font-fira-mono-for-powerline'
+  cask 'caskroom/fonts/font-inconsolata-for-powerline'
+  cask 'caskroom/fonts/font-liberation-mono-for-powerline'
+  cask 'caskroom/fonts/font-menlo-for-powerline'
+  cask 'caskroom/fonts/font-meslo-for-powerline'
+  cask 'caskroom/fonts/font-monofur-for-powerline'
+  cask 'caskroom/fonts/font-noto-mono-for-powerline'
+  cask 'caskroom/fonts/font-roboto-mono-for-powerline'
+  cask 'caskroom/fonts/font-source-code-pro-for-powerline'
+  cask 'caskroom/fonts/font-ubuntu-mono-derivative-powerline'
 ### }}}
