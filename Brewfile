@@ -6,6 +6,11 @@
 
 cask_args appdir: '/Applications'
 
+# Install and manage GUI macOS applications
+tap 'homebrew/cask'
+# Integrates Homebrew formulae with macOS' `launchctl` manager
+tap 'homebrew/services'
+
 ### System {{{
   ## System Libraries
   # Manage compile and link flags for libraries
@@ -116,6 +121,8 @@ cask_args appdir: '/Applications'
   cask 'slack'
   cask 'telegram'
   cask 'skype'
+  # Free security app for mobile phones and computers
+  cask 'keybase'
 ### }}}
 
 
@@ -313,6 +320,12 @@ cask_args appdir: '/Applications'
 
 ### Database {{{
   ## SQL
+  # SQLite
+  brew 'sqlite'
+  # MySQL
+  brew 'mysql'
+  # PostgreSQL
+  brew 'postgresql'
   cask 'datagrip'
 
   ## Key-Value DB
@@ -375,6 +388,10 @@ cask_args appdir: '/Applications'
   brew 'john-jumbo'
   # Suite of barcodes-reading tools
   brew 'zbar'
+
+  ## PGP(Pretty Good Privacy)
+  # GNU Pretty Good Privacy (PGP) package
+  brew 'gnupg', args: ['with-gpg-zip', 'with-gpg-split', 'with-readline']
 ### }}}
 
 ### Font {{{
