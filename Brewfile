@@ -51,6 +51,8 @@ tap 'homebrew/services'
   cask 'onyx'
   # Swiss Army Knife for macOS
   brew 'm-cli'
+  # An Application for Inspecting macOS Installer Packages
+  cask 'suspicious-package'
 
   ## Monitoring
   brew 'htop', args: ['with-ncurses']
