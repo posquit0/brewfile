@@ -349,6 +349,12 @@ tap 'homebrew/services'
   ## Container
   # Docker Community Edition for Mac (Edge)
   cask 'docker-edge'
+  # Kubernetes command-line interface
+  brew 'kubernetes-cli'
+  # The Kubernetes package manager
+  brew 'kubernetes-helm'
+  # Tool that can switch between kubectl contexts easily and create aliases
+  brew 'kubectx'
 ### }}}
 
 
