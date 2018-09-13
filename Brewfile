@@ -123,8 +123,6 @@ tap 'homebrew/services'
   cask 'slack'
   cask 'telegram'
   cask 'skype'
-  # Free security app for mobile phones and computers
-  cask 'keybase'
 ### }}}
 
 
@@ -252,6 +250,8 @@ tap 'homebrew/services'
   ## Git & GitHub
   # Distributed revision control system
   brew 'git'
+  # Git extension for versioning large files
+  brew 'git-lfs'
   # Small git utilities
   brew 'git-extras'
   # Extensions to follow Vincent Driessen's branching model
@@ -296,6 +296,14 @@ tap 'homebrew/services'
   ## Terminal Emulator
   # Terminal Emulator for macOS
   cask 'iterm2'
+
+  ## Terminal Multiplexer
+  # Terminal multiplexer with VT100/ANSI terminal emulation
+  brew 'screen'
+  # A terminal multiplexer, allowing to access multiple separate terminal sessions
+  brew 'tmux', args: ['with-utf8proc']
+  # Reattach process (e.g., tmux) to background
+  brew 'reattach-to-user-namespace'
 
   ## Utility
   # Opens a terminal window to the current directory in Finder
@@ -400,6 +408,10 @@ tap 'homebrew/services'
   ## PGP(Pretty Good Privacy)
   # GNU Pretty Good Privacy (PGP) package
   brew 'gnupg', args: ['with-gpg-zip', 'with-gpg-split', 'with-readline']
+
+  # Free security app for mobile phones and computers
+  # Digital signature manager
+  cask 'keybase'
 ### }}}
 
 ### Font {{{
