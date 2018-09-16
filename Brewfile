@@ -152,6 +152,8 @@ tap 'homebrew/services'
   cask 'cheatsheet'
   # A powerful and stable keyboard customizer for macOS
   cask 'karabiner-elements'
+  # A simple utility application to trigger haptic feedback when tapping Touch Bar
+  cask 'haptickey'
 ### }}}
 
 
@@ -164,6 +166,9 @@ tap 'homebrew/services'
 
   # Boosts your efficiency with hotkeys, keywords, text expansion and more
   cask 'alfred'
+
+  # Organize the menu bar icons
+  cask 'bartender'
 ### }}}
 
 
@@ -260,6 +265,9 @@ tap 'homebrew/services'
   brew 'git-secrets'
   # Text interface for Git repositories
   brew 'tig'
+  # A simple terminal UI for git commands
+  tap 'jesseduffield/lazygit'
+  brew 'lazygit'
   # OS X status bar application for Github
   cask 'gitee'
   # Extend your GitHub workflow beyond your browser <Paste>
@@ -382,6 +390,8 @@ tap 'homebrew/services'
 ### DevOps {{{
   # Tool to build, change, and version infrastructure
   brew 'terraform'
+  # Tool to generate documentation from Terraform modules
+  brew 'terraform-docs'
 
   # Tool for building and managing virtual machine environments
   cask 'vagrant'
