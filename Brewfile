@@ -163,6 +163,8 @@ tap 'homebrew/services'
   brew 'p7zip'
   # General-purpose data compression with high compression ratio
   brew 'xz'
+  # Executes a program periodically, showing output fullscreen
+  brew 'watch'
 
   # Boosts your efficiency with hotkeys, keywords, text expansion and more
   cask 'alfred'
