@@ -165,6 +165,8 @@ tap 'homebrew/services'
   brew 'xz'
   # Executes a program periodically, showing output fullscreen
   brew 'watch'
+  # Simplified and community-driven man pages
+  brew 'tldr'
 
   # Boosts your efficiency with hotkeys, keywords, text expansion and more
   cask 'alfred'
