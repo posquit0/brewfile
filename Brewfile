@@ -428,6 +428,11 @@ tap 'homebrew/services'
   cask 'keybase'
 ### }}}
 
+### Cryptocurrency {{{
+  # Wallet to maintain multiple cryptocurrencies for your Ledger Nano S
+  cask 'ledger-live'
+### }}}
+
 ### Font {{{
   # XML-based font configuration API for X Windows
   brew 'fontconfig'
