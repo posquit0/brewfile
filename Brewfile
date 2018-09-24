@@ -51,8 +51,18 @@ tap 'homebrew/services'
   cask 'onyx'
   # Swiss Army Knife for macOS
   brew 'm-cli'
+
+  ## Mac OS X: Quick Look Plugins
   # An Application for Inspecting macOS Installer Packages
   cask 'suspicious-package'
+  # View plain text files without a file extension
+  cask 'qlstephen'
+  # Preview source code files with syntax highlighting
+  cask 'qlcolorcode'
+  # Preview JSON files
+  cask 'quicklook-json'
+  # Display image size and resolution
+  cask 'qlimagesize'
 
   ## Monitoring
   brew 'htop', args: ['with-ncurses']
@@ -337,6 +347,8 @@ tap 'homebrew/services'
   # UNIX shell (command interpreter)
   # INFO: Need to add `/usr/local/bin/zsh` to `/etc/shells`
   brew 'zsh', args: ['with-gdbm', 'with-pcre']
+  # Tips, tricks, and examples for zsh
+  brew 'zsh-lovers'
 #}}}
 
 
@@ -411,6 +423,7 @@ tap 'homebrew/services'
   brew 'circleci'
 ### }}}
 
+
 ### Cryptography {{{
   # SSL/TLS cryptography library
   brew 'openssl'
@@ -428,10 +441,18 @@ tap 'homebrew/services'
   cask 'keybase'
 ### }}}
 
+
 ### Cryptocurrency {{{
   # Wallet to maintain multiple cryptocurrencies for your Ledger Nano S
   cask 'ledger-live'
 ### }}}
+
+
+### Hacking {{{
+  # GNU debugger
+  brew 'gdb', args: ['with-python']
+### }}}
+
 
 ### Font {{{
   # XML-based font configuration API for X Windows
