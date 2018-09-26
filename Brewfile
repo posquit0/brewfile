@@ -168,6 +168,8 @@ tap 'homebrew/services'
 
 
 ### Utility {{{
+  # GNU File, Shell, and Text utilities
+  brew 'coreutils'
   ## Compress/Uncompress
   # 7-Zip (high compression file archiver) implementation
   brew 'p7zip'
