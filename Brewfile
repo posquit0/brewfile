@@ -398,6 +398,10 @@ tap 'buo/cask-upgrade'
   brew 'kubernetes-helm'
   # Tool that can switch between kubectl contexts easily and create aliases
   brew 'kubectx'
+  # Production Grade K8s Installation, Upgrades, and Management
+  brew 'kops'
+  # A single-node Kubernetes cluster inside a VM on your laptop
+  cask 'minikube'
 ### }}}
 
 
