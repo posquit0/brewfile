@@ -206,7 +206,7 @@ tap 'buo/cask-upgrade'
 ### Programming Language {{{
   ## Node.js
   # Platform built on V8 to build network applications
-  brew 'node'
+  brew 'node@10'
   # Alternative JavaScript package manager by Facebook
   brew 'yarn'
 
@@ -303,13 +303,17 @@ tap 'buo/cask-upgrade'
   ## Mercurial
   # Scalable distributed version control system
   brew 'mercurial'
+
+  ## ETC
+  # Clone of cat with syntax highlighting and Git integration
+  brew 'bat'
 ### }}}
 
 
 ### Code Editor & IDE {{{
   ## Editor: Vim
   # Vi 'workalike' with many additional features
-  brew 'vim', args: ['with-gettext', 'with-lua', 'with-luajit', 'with-tcl']
+  brew 'vim', args: ['with-override-system-vi', 'with-gettext', 'with-lua', 'with-luajit', 'with-tcl']
   # GUI for vim, made for macOS
   cask 'macvim'
   # Ambitious Vim-fork focused on extensibility and agility
@@ -342,6 +346,8 @@ tap 'buo/cask-upgrade'
   # Opens a terminal window to the current directory in Finder
   # INFO: Need to set up manually
   cask 'go2shell'
+  # Modern replacement for `ls`
+  brew 'exa'
 
   ## Shell: Bash
   # Bourne-Again SHell, a UNIX command interpreter
@@ -376,6 +382,10 @@ tap 'buo/cask-upgrade'
   ## Key-Value DB
   # Persistent key-value database, with built-in net interface
   brew 'redis'
+
+  ## Messaging Queue
+  # Publish-subscribe messaging rethought as a distributed commit log
+  brew 'kafka'
 
   ## LDAP
   # The Eclipse-based LDAP browser and directory client
@@ -484,6 +494,8 @@ tap 'buo/cask-upgrade'
   cask 'caskroom/fonts/font-devicons'
   # WordPress admin icon font
   cask 'caskroom/fonts/font-dashicons'
+  # The premium icon font for Ionic Framework and web apps everywhere
+  cask 'caskroom/fonts/font-ionicons'
 
   ## Font Family: Nanum
   cask 'caskroom/fonts/font-nanumgothic'
@@ -504,6 +516,8 @@ tap 'buo/cask-upgrade'
   cask 'caskroom/fonts/font-d2coding'
   cask 'caskroom/fonts/font-inconsolata'
   cask 'caskroom/fonts/font-dejavu-sans'
+  cask 'caskroom/fonts/font-fira-code'
+  cask 'caskroom/fonts/font-fira-mono'
 
   ## Font Family: Powerline
   cask 'caskroom/fonts/font-anonymice-powerline'
