@@ -194,6 +194,8 @@ tap 'buo/cask-upgrade'
 
   # Organize the menu bar icons
   cask 'bartender'
+  # A single place for all of your web applications
+  cask 'station'
 ### }}}
 
 
@@ -338,7 +340,8 @@ tap 'buo/cask-upgrade'
   # Terminal multiplexer with VT100/ANSI terminal emulation
   brew 'screen'
   # A terminal multiplexer, allowing to access multiple separate terminal sessions
-  brew 'tmux', args: ['with-utf8proc']
+  # brew 'tmux', args: ['with-utf8proc']
+  brew 'tmux'
   # Reattach process (e.g., tmux) to background
   brew 'reattach-to-user-namespace'
 
@@ -408,6 +411,9 @@ tap 'buo/cask-upgrade'
   brew 'kubernetes-helm'
   # Tool that can switch between kubectl contexts easily and create aliases
   brew 'kubectx'
+  # Kubernetes log viewer
+  tap 'boz/repo'
+  brew 'boz/repo/kail'
   # Production Grade K8s Installation, Upgrades, and Management
   brew 'kops'
   # A single-node Kubernetes cluster inside a VM on your laptop
@@ -534,4 +540,10 @@ tap 'buo/cask-upgrade'
   cask 'caskroom/fonts/font-roboto-mono-for-powerline'
   cask 'caskroom/fonts/font-source-code-pro-for-powerline'
   cask 'caskroom/fonts/font-ubuntu-mono-derivative-powerline'
+### }}}
+
+
+### Drivers {{{
+  # Fitbit
+  cask 'homebrew/cask-drivers/fitbit-connect'
 ### }}}
