@@ -103,6 +103,8 @@ tap 'buo/cask-upgrade'
   cask 'insomnia'
   # API Development Environment
   cask 'postman'
+  # The most advanced API tool for Mac
+  cask 'paw'
   # Internet file retriever
   brew 'wget'
   # User-friendly cURL replacement (command-line HTTP client)
@@ -217,6 +219,8 @@ tap 'buo/cask-upgrade'
   brew 'python'
   # Python2
   brew 'python@2'
+  # Python dependency management tool
+  brew 'pipenv'
 
   ## Golang
   # Open source programming language to build simple/reliable/efficient software
@@ -439,6 +443,8 @@ tap 'buo/cask-upgrade'
   brew 'terraform'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
+  # Thin wrapper for Terraform e.g. for locking state
+  brew 'terragrunt'
 
   # Tool for building and managing virtual machine environments
   cask 'vagrant'
@@ -491,55 +497,55 @@ tap 'buo/cask-upgrade'
 
   ## Font Family: Icons
   # Most popular icon toolkit
-  cask 'caskroom/fonts/font-fontawesome'
+  cask 'homebrew/cask-fonts/font-fontawesome'
   # Simple and Minimal Line Icons
-  cask 'caskroom/fonts/font-simple-line-icons'
+  cask 'homebrew/cask-fonts/font-simple-line-icons'
   # Material Design icons by Google
-  cask 'caskroom/fonts/font-material-icons'
+  cask 'homebrew/cask-fonts/font-material-icons'
   # An iconic font made for developers
-  cask 'caskroom/fonts/font-devicons'
+  cask 'homebrew/cask-fonts/font-devicons'
   # WordPress admin icon font
-  cask 'caskroom/fonts/font-dashicons'
+  cask 'homebrew/cask-fonts/font-dashicons'
   # The premium icon font for Ionic Framework and web apps everywhere
-  cask 'caskroom/fonts/font-ionicons'
+  cask 'homebrew/cask-fonts/font-ionicons'
 
   ## Font Family: Nanum
-  cask 'caskroom/fonts/font-nanumgothic'
-  cask 'caskroom/fonts/font-nanumgothiccoding'
-  cask 'caskroom/fonts/font-nanummyeongjo'
+  cask 'homebrew/cask-fonts/font-nanumgothic'
+  cask 'homebrew/cask-fonts/font-nanumgothiccoding'
+  cask 'homebrew/cask-fonts/font-nanummyeongjo'
 
   ## Font Family: Open Sans
-  cask 'caskroom/fonts/font-open-sans'
-  cask 'caskroom/fonts/font-open-sans-condensed'
+  cask 'homebrew/cask-fonts/font-open-sans'
+  cask 'homebrew/cask-fonts/font-open-sans-condensed'
 
   ## Font Family: ETC
-  cask 'caskroom/fonts/font-ubuntu'
-  cask 'caskroom/fonts/font-source-han-noto-cjk'
-  cask 'caskroom/fonts/font-source-code-pro'
-  cask 'caskroom/fonts/font-sofia'
-  cask 'caskroom/fonts/font-roboto'
-  cask 'caskroom/fonts/font-hack'
-  cask 'caskroom/fonts/font-d2coding'
-  cask 'caskroom/fonts/font-inconsolata'
-  cask 'caskroom/fonts/font-dejavu-sans'
-  cask 'caskroom/fonts/font-fira-code'
-  cask 'caskroom/fonts/font-fira-mono'
+  cask 'homebrew/cask-fonts/font-ubuntu'
+  cask 'homebrew/cask-fonts/font-source-han-noto-cjk'
+  cask 'homebrew/cask-fonts/font-source-code-pro'
+  cask 'homebrew/cask-fonts/font-sofia'
+  cask 'homebrew/cask-fonts/font-roboto'
+  cask 'homebrew/cask-fonts/font-hack'
+  cask 'homebrew/cask-fonts/font-d2coding'
+  cask 'homebrew/cask-fonts/font-inconsolata'
+  cask 'homebrew/cask-fonts/font-dejavu-sans'
+  cask 'homebrew/cask-fonts/font-fira-code'
+  cask 'homebrew/cask-fonts/font-fira-mono'
 
   ## Font Family: Powerline
-  cask 'caskroom/fonts/font-anonymice-powerline'
-  cask 'caskroom/fonts/font-consolas-for-powerline'
-  cask 'caskroom/fonts/font-dejavu-sans-mono-for-powerline'
-  cask 'caskroom/fonts/font-droid-sans-mono-for-powerline'
-  cask 'caskroom/fonts/font-fira-mono-for-powerline'
-  cask 'caskroom/fonts/font-inconsolata-for-powerline'
-  cask 'caskroom/fonts/font-liberation-mono-for-powerline'
-  cask 'caskroom/fonts/font-menlo-for-powerline'
-  cask 'caskroom/fonts/font-meslo-for-powerline'
-  cask 'caskroom/fonts/font-monofur-for-powerline'
-  cask 'caskroom/fonts/font-noto-mono-for-powerline'
-  cask 'caskroom/fonts/font-roboto-mono-for-powerline'
-  cask 'caskroom/fonts/font-source-code-pro-for-powerline'
-  cask 'caskroom/fonts/font-ubuntu-mono-derivative-powerline'
+  cask 'homebrew/cask-fonts/font-anonymice-powerline'
+  cask 'homebrew/cask-fonts/font-consolas-for-powerline'
+  cask 'homebrew/cask-fonts/font-dejavu-sans-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-droid-sans-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-fira-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-inconsolata-for-powerline'
+  cask 'homebrew/cask-fonts/font-liberation-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-menlo-for-powerline'
+  cask 'homebrew/cask-fonts/font-meslo-for-powerline'
+  cask 'homebrew/cask-fonts/font-monofur-for-powerline'
+  cask 'homebrew/cask-fonts/font-noto-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-roboto-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-source-code-pro-for-powerline'
+  cask 'homebrew/cask-fonts/font-ubuntu-mono-derivative-powerline'
 ### }}}
 
 
