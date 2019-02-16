@@ -157,6 +157,8 @@ tap 'buo/cask-upgrade'
   ## Proxy & VPN
   # Free software for OpenVPN on OS X
   cask 'tunnelblick'
+  # For an instant, secure URL to your localhost server through any NAT or firewall
+  cask 'ngrok'
 
   ## Utility
   # MAC spoofing GUI for macOS
