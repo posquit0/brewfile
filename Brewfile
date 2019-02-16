@@ -445,6 +445,9 @@ tap 'buo/cask-upgrade'
   brew 'terraform-docs'
   # Thin wrapper for Terraform e.g. for locking state
   brew 'terragrunt'
+  # Terraform linter for detecting errors that can not be detected by `terraform plan`
+  tap 'wata727/tflint'
+  brew 'tflint'
 
   # Tool for building and managing virtual machine environments
   cask 'vagrant'
