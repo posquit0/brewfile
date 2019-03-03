@@ -109,6 +109,10 @@ tap 'buo/cask-upgrade'
   brew 'wget'
   # User-friendly cURL replacement (command-line HTTP client)
   brew 'httpie'
+
+  ## Static Gen
+  # The world’s fastest framework for building websites
+  brew 'hugo'
 ### }}}
 
 
@@ -481,6 +485,8 @@ tap 'buo/cask-upgrade'
   # Free security app for mobile phones and computers
   # Digital signature manager
   cask 'keybase'
+  # A password manager, digital vault, form filler and secure digital wallet
+  cask '1password'
 ### }}}
 
 
