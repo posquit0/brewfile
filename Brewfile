@@ -1,6 +1,6 @@
 # Brewfile
 #
-# Maintained by ByungjinPark <posquit0.bj@gmail.com>
+# Maintained by Byungjin Park <posquit0.bj@gmail.com>
 # http://www.posquit0.com/
 
 
@@ -204,6 +204,8 @@ tap 'buo/cask-upgrade'
   cask 'bartender'
   # A single place for all of your web applications
   cask 'station'
+  # The calendar app you won't be able to live without
+  cask 'fantastical'
 ### }}}
 
 
@@ -303,6 +305,8 @@ tap 'buo/cask-upgrade'
   brew 'git-flow'
   # Prevents you from committing sensitive information to a git repo
   brew 'git-secrets'
+  # Remove crazy big files, passwords, credentials and other private data
+  brew 'bfg'
   # Text interface for Git repositories
   brew 'tig'
   # A simple terminal UI for git commands
@@ -421,6 +425,8 @@ tap 'buo/cask-upgrade'
   # Kubernetes CLI to manage cluters in style
   tap 'derailed/k9s'
   brew 'k9s'
+  # Tool for repeatable Kubernetes development
+  brew 'skaffold'
   # Kubernetes log viewer
   tap 'boz/repo'
   brew 'kail'
