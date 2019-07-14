@@ -70,7 +70,8 @@ tap 'buo/cask-upgrade'
   cask 'qlimagesize'
 
   ## Monitoring
-  brew 'htop', args: ['with-ncurses']
+  # An interactive process viewer for Unix
+  brew 'htop'
   # Display an interface's bandwidth usage
   brew 'iftop'
   # Top-like interface for container metrics
@@ -147,7 +148,6 @@ tap 'buo/cask-upgrade'
 ### Messaging {{{
   cask 'slack'
   cask 'telegram'
-  cask 'skype'
 ### }}}
 
 
@@ -235,9 +235,9 @@ tap 'buo/cask-upgrade'
   brew 'gox'
 
   ## Java
-  # Java Standard Edition Development Kit 8
+  # Java Standard Edition Development Kit 12
   # INFO: Need to reboot
-  cask 'java8'
+  cask 'java'
   # Java build tool
   brew 'ant'
   # Java-based project management
@@ -245,7 +245,7 @@ tap 'buo/cask-upgrade'
 
   ## Scala
   # JVM-based programming language
-  brew 'scala', args: ['with-docs', 'with-src']
+  brew 'scala'
   # Build tool for Scala projects
   brew 'sbt'
 
@@ -303,7 +303,6 @@ tap 'buo/cask-upgrade'
   # Text interface for Git repositories
   brew 'tig'
   # A simple terminal UI for git commands
-  tap 'jesseduffield/lazygit'
   brew 'lazygit'
   # OS X status bar application for Github
   cask 'gitee'
@@ -498,7 +497,7 @@ tap 'buo/cask-upgrade'
 
 ### Hacking {{{
   # GNU debugger
-  brew 'gdb', args: ['with-python']
+  brew 'gdb'
 ### }}}
 
 
@@ -533,7 +532,6 @@ tap 'buo/cask-upgrade'
   cask 'homebrew/cask-fonts/font-ubuntu'
   cask 'homebrew/cask-fonts/font-source-han-noto-cjk'
   cask 'homebrew/cask-fonts/font-source-code-pro'
-  cask 'homebrew/cask-fonts/font-sofia'
   cask 'homebrew/cask-fonts/font-roboto'
   cask 'homebrew/cask-fonts/font-hack'
   cask 'homebrew/cask-fonts/font-d2coding'
