@@ -238,6 +238,9 @@ tap 'buo/cask-upgrade'
   # Java Standard Edition Development Kit 12
   # INFO: Need to reboot
   cask 'java'
+  # An open and reproducible build & test system for OpenJDK
+  # INFO: Need to install OpenJDK 8
+  cask 'adoptopenjdk8'
   # Java build tool
   brew 'ant'
   # Java-based project management
@@ -324,9 +327,7 @@ tap 'buo/cask-upgrade'
 ### Code Editor & IDE {{{
   ## Editor: Vim
   # Vi 'workalike' with many additional features
-  brew 'vim', args: ['with-override-system-vi', 'with-gettext', 'with-lua', 'with-luajit', 'with-tcl']
-  # GUI for vim, made for macOS
-  cask 'macvim'
+  brew 'vim'
   # Ambitious Vim-fork focused on extensibility and agility
   brew 'neovim'
 
@@ -355,9 +356,6 @@ tap 'buo/cask-upgrade'
   brew 'reattach-to-user-namespace'
 
   ## Utility
-  # Opens a terminal window to the current directory in Finder
-  # INFO: Need to set up manually
-  cask 'go2shell'
   # Modern replacement for `ls`
   brew 'exa'
 
@@ -375,7 +373,7 @@ tap 'buo/cask-upgrade'
   ## Shell: Zsh
   # UNIX shell (command interpreter)
   # INFO: Need to add `/usr/local/bin/zsh` to `/etc/shells`
-  brew 'zsh', args: ['with-gdbm', 'with-pcre']
+  brew 'zsh'
   # Tips, tricks, and examples for zsh
   brew 'zsh-lovers'
 #}}}
@@ -420,9 +418,12 @@ tap 'buo/cask-upgrade'
   brew 'kubernetes-helm'
   # Tool that can switch between kubectl contexts easily and create aliases
   brew 'kubectx'
+  # Kubernetes CLI to manage cluters in style
+  tap 'derailed/k9s'
+  brew 'k9s'
   # Kubernetes log viewer
   tap 'boz/repo'
-  brew 'boz/repo/kail'
+  brew 'kail'
   # Production Grade K8s Installation, Upgrades, and Management
   brew 'kops'
   # A single-node Kubernetes cluster inside a VM on your laptop
@@ -479,7 +480,7 @@ tap 'buo/cask-upgrade'
 
   ## PGP(Pretty Good Privacy)
   # GNU Pretty Good Privacy (PGP) package
-  brew 'gnupg', args: ['with-gpg-zip', 'with-gpg-split', 'with-readline']
+  brew 'gnupg'
 
   # Free security app for mobile phones and computers
   # Digital signature manager
