@@ -416,10 +416,14 @@ tap 'buo/cask-upgrade'
   ## Container
   # Docker Community Edition for Mac (Edge)
   cask 'docker-edge'
+  # The lazier way to manage everything docker
+  brew 'lazydocker'
   # Kubernetes command-line interface
   brew 'kubernetes-cli'
   # The Kubernetes package manager
   brew 'kubernetes-helm'
+  # Customization of kubernetes YAML configurations
+  brew 'kustomize'
   # Tool that can switch between kubectl contexts easily and create aliases
   brew 'kubectx'
   # Kubernetes CLI to manage cluters in style
