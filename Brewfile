@@ -553,6 +553,7 @@ tap 'buo/cask-upgrade'
   cask 'homebrew/cask-fonts/font-dejavu-sans'
   cask 'homebrew/cask-fonts/font-fira-code'
   cask 'homebrew/cask-fonts/font-fira-mono'
+  cask 'homebrew/cask-fonts/font-jetbrains-mono'
 
   ## Font Family: Powerline
   cask 'homebrew/cask-fonts/font-anonymice-powerline'
@@ -574,5 +575,5 @@ tap 'buo/cask-upgrade'
 
 ### Drivers {{{
   # Fitbit
-  cask 'homebrew/cask-drivers/fitbit-connect'
+  # cask 'homebrew/cask-drivers/fitbit-connect'
 ### }}}
