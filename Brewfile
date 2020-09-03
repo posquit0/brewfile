@@ -434,6 +434,9 @@ tap 'buo/cask-upgrade'
   # Kubernetes log viewer
   tap 'boz/repo'
   brew 'kail'
+  # Bulk port forwarding Kubernetes services for local development
+  tap 'txn2/tap/kubefwd'
+  brew 'kubefwd'
   # Production Grade K8s Installation, Upgrades, and Management
   brew 'kops'
   # A single-node Kubernetes cluster inside a VM on your laptop
