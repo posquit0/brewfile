@@ -64,8 +64,6 @@ tap 'buo/cask-upgrade'
   cask 'qlstephen'
   # Preview source code files with syntax highlighting
   cask 'qlcolorcode'
-  # Preview JSON files
-  cask 'quicklook-json'
   # Display image size and resolution
   cask 'qlimagesize'
 
@@ -203,7 +201,7 @@ tap 'buo/cask-upgrade'
   # Organize the menu bar icons
   cask 'bartender'
   # A single place for all of your web applications
-  cask 'station'
+  # cask 'station'
   # The calendar app you won't be able to live without
   cask 'fantastical'
 ### }}}
@@ -313,7 +311,7 @@ tap 'buo/cask-upgrade'
   brew 'lazygit'
   # OS X status bar application for Github
   cask 'gitee'
-  # Extend your GitHub workflow beyond your browser <Paste>
+  # Extend your GitHub workflow beyond your browser
   cask 'github'
   # The legendary Git GUI client
   cask 'gitkraken'
@@ -435,10 +433,10 @@ tap 'buo/cask-upgrade'
   tap 'boz/repo'
   brew 'kail'
   # Bulk port forwarding Kubernetes services for local development
-  tap 'txn2/tap/kubefwd'
+  tap 'txn2/tap'
   brew 'kubefwd'
   # Production Grade K8s Installation, Upgrades, and Management
-  brew 'kops'
+  # brew 'kops'
   # A single-node Kubernetes cluster inside a VM on your laptop
   cask 'minikube'
 ### }}}
@@ -480,6 +478,13 @@ tap 'buo/cask-upgrade'
 
   # Enables you to reproduce the CircleCI environment locally
   brew 'circleci'
+  # Command line tool for Drone CI
+  tap 'drone/drone'
+  brew 'drone'
+  # CLI for ArgoCD
+  brew 'argocd'
+  # CLI for Argo Workflow
+  brew 'argo'
 ### }}}
 
 
@@ -505,7 +510,7 @@ tap 'buo/cask-upgrade'
 
 ### Cryptocurrency {{{
   # Wallet to maintain multiple cryptocurrencies for your Ledger Nano S
-  cask 'ledger-live'
+  # cask 'ledger-live'
 ### }}}
 
 
