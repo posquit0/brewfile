@@ -24,7 +24,7 @@ cask_args appdir: '/Applications'
   # Vi 'workalike' with many additional features
   brew 'vim'
   # Ambitious Vim-fork focused on extensibility and agility
-  brew 'neovim', args: ['HEAD']
+  brew 'neovim'
 
   ## Editor: Microsoft Visual Studio Code
   cask 'visual-studio-code'
