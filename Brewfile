@@ -156,6 +156,8 @@ tap 'buo/cask-upgrade'
 
 
 ### Messaging {{{
+  # The best personal email client
+  mas 'Spark – Email App by Readdle', id: 1176895641
   # Team communication and collaboration software
   mas 'Slack', id: 803453959
   # Korean standard messaging app
