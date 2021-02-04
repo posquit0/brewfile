@@ -1,0 +1,64 @@
+# vi: filetype=brewfile
+# Brewfile.font
+#
+# Maintained by Byungjin Park <posquit0.bj@gmail.com>
+# http://www.posquit0.com/
+
+
+cask_args appdir: '/Applications', require_sha: true
+
+### Font {{{
+  # XML-based font configuration API for X Windows
+  brew 'fontconfig'
+
+  ## Font Family: Icons
+  # Most popular icon toolkit
+  cask 'homebrew/cask-fonts/font-fontawesome'
+  # Simple and Minimal Line Icons
+  cask 'homebrew/cask-fonts/font-simple-line-icons'
+  # Material Design icons by Google
+  cask 'homebrew/cask-fonts/font-material-icons'
+  # An iconic font made for developers
+  cask 'homebrew/cask-fonts/font-devicons'
+  # WordPress admin icon font
+  cask 'homebrew/cask-fonts/font-dashicons'
+  # The premium icon font for Ionic Framework and web apps everywhere
+  cask 'homebrew/cask-fonts/font-ionicons'
+
+  ## Font Family: Nanum
+  cask 'homebrew/cask-fonts/font-nanum-gothic'
+  cask 'homebrew/cask-fonts/font-nanum-gothic-coding'
+  cask 'homebrew/cask-fonts/font-nanum-myeongjo'
+
+  ## Font Family: Open Sans
+  cask 'homebrew/cask-fonts/font-open-sans'
+  cask 'homebrew/cask-fonts/font-open-sans-condensed'
+
+  ## Font Family: ETC
+  cask 'homebrew/cask-fonts/font-ubuntu'
+  cask 'homebrew/cask-fonts/font-source-han-noto-cjk'
+  cask 'homebrew/cask-fonts/font-source-code-pro'
+  cask 'homebrew/cask-fonts/font-roboto'
+  cask 'homebrew/cask-fonts/font-hack'
+  cask 'homebrew/cask-fonts/font-d2coding'
+  cask 'homebrew/cask-fonts/font-inconsolata'
+  cask 'homebrew/cask-fonts/font-fira-code'
+  cask 'homebrew/cask-fonts/font-fira-mono'
+  cask 'homebrew/cask-fonts/font-jetbrains-mono'
+
+  ## Font Family: Powerline
+  cask 'homebrew/cask-fonts/font-anonymice-powerline'
+  cask 'homebrew/cask-fonts/font-consolas-for-powerline'
+  cask 'homebrew/cask-fonts/font-dejavu-sans-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-droid-sans-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-fira-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-inconsolata-for-powerline'
+  cask 'homebrew/cask-fonts/font-liberation-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-menlo-for-powerline'
+  cask 'homebrew/cask-fonts/font-meslo-for-powerline'
+  cask 'homebrew/cask-fonts/font-monofur-for-powerline'
+  cask 'homebrew/cask-fonts/font-noto-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-roboto-mono-for-powerline'
+  cask 'homebrew/cask-fonts/font-source-code-pro-for-powerline'
+  cask 'homebrew/cask-fonts/font-ubuntu-mono-derivative-powerline'
+### }}}

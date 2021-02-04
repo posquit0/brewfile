@@ -1,0 +1,223 @@
+# vi: filetype=brewfile
+# Brewfile.dev-base
+#
+# Maintained by Byungjin Park <posquit0.bj@gmail.com>
+# http://www.posquit0.com/
+
+
+cask_args appdir: '/Applications'
+
+### Development {{{
+  # Automatic configure script builder
+  brew 'autoconf'
+  # Tool for generating GNU Standards-compliant Makefiles
+  brew 'automake'
+  # Cross-platform make
+  brew 'cmake'
+  # GNU debugger
+  brew 'gdb'
+### }}}
+
+
+### Code Editor & IDE {{{
+  ## Editor: Vim
+  # Vi 'workalike' with many additional features
+  brew 'vim'
+  # Ambitious Vim-fork focused on extensibility and agility
+  brew 'neovim', args: ['HEAD']
+
+  ## Editor: Microsoft Visual Studio Code
+  cask 'visual-studio-code'
+### }}}
+
+
+### VCS {{{
+  ## Git & GitHub
+  # Distributed revision control system
+  brew 'git'
+  # Git extension for versioning large files
+  brew 'git-lfs'
+  # Small git utilities
+  brew 'git-extras'
+  # Extensions to follow Vincent Driessen's branching model
+  brew 'git-flow'
+  # Prevents you from committing sensitive information to a git repo
+  brew 'git-secrets'
+  # Remove crazy big files, passwords, credentials and other private data
+  brew 'bfg'
+  # Text interface for Git repositories
+  brew 'tig'
+  # A simple terminal UI for git commands
+  brew 'lazygit'
+  # OS X status bar application for Github
+  # cask 'gitee'
+  # The legendary Git GUI client
+  cask 'gitkraken'
+
+  ## Mercurial
+  # Scalable distributed version control system
+  brew 'mercurial'
+
+  ## Subversion
+  brew 'svn'
+### }}}
+
+
+### Network {{{
+  ## Analysis
+  # The world’s foremost and widely-used network protocol analyzer
+  cask 'wireshark'
+  # Port scanning utility for large networks
+  brew 'nmap'
+
+  ## Proxy & VPN
+  # Free software for OpenVPN on OS X
+  cask 'tunnelblick'
+  # For an instant, secure URL to your localhost server through any NAT or firewall
+  cask 'ngrok'
+
+  ## Utility
+  # MAC spoofing GUI for macOS
+  cask 'linkliar'
+### }}}
+
+
+### Web {{{
+  ## HTTP Request
+  # Powerful HTTP and GraphQL tool belt
+  cask 'insomnia'
+  # The most advanced API tool for Mac
+  cask 'paw'
+  # User-friendly cURL replacement (command-line HTTP client)
+  brew 'httpie'
+### }}}
+
+
+### Programming Language {{{
+  ## Node.js
+  # Platform built on V8 to build network applications
+  brew 'node'
+  # Alternative JavaScript package manager by Facebook
+  brew 'yarn'
+
+  ## Python
+  # Python3
+  brew 'python'
+  # Python dependency management tool
+  brew 'pipenv'
+
+  ## Golang
+  # Open source programming language to build simple/reliable/efficient software
+  brew 'go'
+  # Go cross compile tool
+  brew 'gox'
+
+  ## C Family
+  # GNU compiler collection
+  brew 'gcc'
+
+  ## Java
+  # Java Standard Edition Development Kit 12
+  # INFO: Need to reboot
+  brew 'java'
+  # An open and reproducible build & test system for OpenJDK
+  # INFO: Need to install OpenJDK 8
+  cask 'adoptopenjdk8'
+  # Java build tool
+  brew 'ant'
+  # Java-based project management
+  brew 'maven'
+  # Open-source build automation tool based on the Groovy and Kotlin DSL
+  brew 'gradle'
+
+  ## Ruby
+  # Powerful, clean, object-oriented scripting language
+  brew 'ruby'
+  # Ruby version manager
+  brew 'rbenv'
+
+  ## Shellscript
+  # Static analysis and lint tool, for (ba)sh scripts
+  brew 'shellcheck'
+
+  ## Lua
+  # Powerful, lightweight programming language
+  brew 'lua'
+  # Just-In-Time Compiler (JIT) for the Lua programming language
+  brew 'luajit'
+  # Package manager for the Lua programming language
+  brew 'luarocks'
+
+  ## Haskell
+  # Glorious Glasgow Haskell Compilation System
+  brew 'ghc'
+
+  ## Scala
+  # JVM-based programming language
+  brew 'scala'
+  # Build tool for Scala projects
+  brew 'sbt'
+
+### }}}
+
+
+### Virtualization {{{
+  ## Virtual Machine
+  # Oracle VirtualBox
+  # INFO: Need to enable their kernel extension
+  cask 'virtualbox'
+
+  ## Container
+  # Docker Community Edition for Mac (Edge)
+  cask 'docker-edge'
+  # The lazier way to manage everything docker
+  brew 'lazydocker'
+
+  ## Kubernetes
+  # Kubernetes command-line interface
+  brew 'kubernetes-cli'
+  # The Kubernetes package manager
+  brew 'kubernetes-helm'
+  # Customization of kubernetes YAML configurations
+  brew 'kustomize'
+  # Tool that can switch between kubectl contexts easily and create aliases
+  brew 'kubectx'
+  # Kubernetes CLI to manage cluters in style
+  brew 'k9s'
+  # Tool for repeatable Kubernetes development
+  brew 'skaffold'
+  # Kubernetes log viewer
+  tap 'boz/repo'
+  brew 'kail'
+  # Bulk port forwarding Kubernetes services for local development
+  tap 'txn2/tap'
+  brew 'kubefwd'
+  # Production Grade K8s Installation, Upgrades, and Management
+  # brew 'kops'
+  # A single-node Kubernetes cluster inside a VM on your laptop
+  # cask 'minikube'
+### }}}
+
+
+### Database {{{
+  ## SQL
+  # SQLite
+  brew 'sqlite'
+  # MySQL
+  brew 'mysql'
+  # PostgreSQL
+  brew 'postgresql'
+  cask 'datagrip'
+
+  ## Key-Value DB
+  # Persistent key-value database, with built-in net interface
+  brew 'redis'
+
+  ## Messaging Queue
+  # Publish-subscribe messaging rethought as a distributed commit log
+  brew 'kafka'
+
+  ## LDAP
+  # The Eclipse-based LDAP browser and directory client
+  cask 'apache-directory-studio'
+### }}}
