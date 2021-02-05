@@ -8,6 +8,12 @@
 cask_args appdir: '/Applications'
 
 ### DevOps {{{
+  ## AWS
+  # Universal Command Line Interface for AWS
+  brew 'awscli'
+  # A vault for securely storing and accessing AWS credentials in development environments
+  cask 'aws-vault'
+
   # Tool to build, change, and version infrastructure
   brew 'terraform'
   # A CLI tool to switch between different versions of terraform
