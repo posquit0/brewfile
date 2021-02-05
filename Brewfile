@@ -139,6 +139,8 @@ tap 'buo/cask-upgrade'
   cask 'bartender'
   # The calendar app you won't be able to live without
   cask 'fantastical'
+  # The most awesome keep-awake app
+  mas 'Amphetamine', id: 937984704
 ### }}}
 
 
