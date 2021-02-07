@@ -202,8 +202,6 @@ tap 'buo/cask-upgrade'
   cask 'cheatsheet'
   # A powerful and stable keyboard customizer for macOS
   cask 'karabiner-elements'
-  # A simple utility application to trigger haptic feedback when tapping Touch Bar
-  cask 'haptickey'
 ### }}}
 
 
