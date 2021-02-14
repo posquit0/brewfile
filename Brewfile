@@ -59,6 +59,8 @@ tap 'buo/cask-upgrade'
   brew 'iftop'
   # Top-like interface for container metrics
   brew 'ctop'
+  # macOS system monitor in your menu bar
+  cask 'stats'
 
   ## Mac OS X
   # Homebrew GUI App for OS X
