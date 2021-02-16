@@ -126,6 +126,9 @@ tap 'buo/cask-upgrade'
   brew 'p7zip'
   # General-purpose data compression with high compression ratio
   brew 'xz'
+
+  # Display directories as trees
+  brew 'tree'
   # Executes a program periodically, showing output fullscreen
   brew 'watch'
   # Simplified and community-driven man pages
