@@ -49,6 +49,8 @@ cask_args appdir: '/Applications'
   brew 'tig'
   # A simple terminal UI for git commands
   brew 'lazygit'
+  # A framework for managing and maintaining multi-language pre-commit hooks
+  brew 'pre-commit'
   # OS X status bar application for Github
   # cask 'gitee'
   # The legendary Git GUI client
