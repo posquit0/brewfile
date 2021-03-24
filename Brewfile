@@ -120,6 +120,8 @@ tap 'buo/cask-upgrade'
   brew 'coreutils'
   # Internet file retriever
   brew 'wget'
+  # GNU awk utiliy
+  brew 'gawk'
 
   ## Compress/Uncompress
   # 7-Zip (high compression file archiver) implementation
