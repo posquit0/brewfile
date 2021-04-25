@@ -99,8 +99,6 @@ cask_args appdir: '/Applications'
   ## Node.js
   # Platform built on V8 to build network applications
   brew 'node'
-  # Alternative JavaScript package manager by Facebook
-  brew 'yarn'
 
   ## Python
   # Python3
