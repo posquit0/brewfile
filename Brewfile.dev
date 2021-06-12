@@ -158,6 +158,9 @@ cask_args appdir: '/Applications'
   # Build tool for Scala projects
   brew 'sbt'
 
+  ## YAML
+  # Linter for YAML files
+  brew 'yamllint'
 ### }}}
 
 
