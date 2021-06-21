@@ -139,6 +139,8 @@ tap 'buo/cask-upgrade'
   brew 'exa'
   # Clone of cat with syntax highlighting and Git integration
   brew 'bat'
+  # Simple, fast and user-friendly alternative to find
+  brew 'fd'
 
   # Boosts your efficiency with hotkeys, keywords, text expansion and more
   cask 'alfred'
