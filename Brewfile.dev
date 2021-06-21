@@ -219,6 +219,8 @@ cask_args appdir: '/Applications'
   ## Messaging Queue
   # Publish-subscribe messaging rethought as a distributed commit log
   brew 'kafka'
+  # Generic command-line non-JVM Apache Kafka producer and consumer
+  brew 'kafkacat'
 
   ## LDAP
   # The Eclipse-based LDAP browser and directory client
