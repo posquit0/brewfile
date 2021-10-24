@@ -242,6 +242,11 @@ tap 'buo/cask-upgrade'
   ## PGP(Pretty Good Privacy)
   # GNU Pretty Good Privacy (PGP) package
   brew 'gnupg'
+  # Pinentry for GPG on Mac
+  brew 'pinentry-mac'
+  # Custom GPG pinentry program for macOS that allows using Touch ID
+  tap 'jorgelbg/tap'
+  brew install pinentry-touchid
 
   # Free security app for mobile phones and computers
   # Digital signature manager
