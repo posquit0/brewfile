@@ -35,6 +35,8 @@ cask_args appdir: '/Applications'
   brew 'packer'
   # Automate deployment, configuration, and upgrading
   brew 'ansible'
+  # Best practices checker for Ansible
+  brew 'ansible-lint'
   # Molecule aids in the development and testing of Ansible roles
   brew 'molecule'
 
