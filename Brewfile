@@ -141,6 +141,9 @@ tap 'buo/cask-upgrade'
   brew 'bat'
   # Simple, fast and user-friendly alternative to find
   brew 'fd'
+  # Yet another cross-platform graphical process/system monitor.
+  tap 'clementtsang/bottom'
+  brew 'bottom'
 
   # Boosts your efficiency with hotkeys, keywords, text expansion and more
   cask 'alfred'
