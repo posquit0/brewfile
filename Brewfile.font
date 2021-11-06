@@ -5,7 +5,7 @@
 # http://www.posquit0.com/
 
 
-cask_args appdir: '/Applications', require_sha: true
+cask_args appdir: '/Applications'
 
 ### Font {{{
   # XML-based font configuration API for X Windows
