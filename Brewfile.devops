@@ -38,7 +38,8 @@ cask_args appdir: '/Applications'
   # Best practices checker for Ansible
   brew 'ansible-lint'
   # Molecule aids in the development and testing of Ansible roles
-  brew 'molecule'
+  # INFO: Install using pip
+  # brew 'molecule'
 
   # Enables you to reproduce the CircleCI environment locally
   # brew 'circleci'
