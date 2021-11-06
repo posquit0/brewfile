@@ -249,7 +249,7 @@ tap 'buo/cask-upgrade'
   brew 'pinentry-mac'
   # Custom GPG pinentry program for macOS that allows using Touch ID
   tap 'jorgelbg/tap'
-  brew install pinentry-touchid
+  brew 'pinentry-touchid'
 
   # Free security app for mobile phones and computers
   # Digital signature manager
