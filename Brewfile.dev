@@ -135,6 +135,8 @@ cask_args appdir: '/Applications'
   brew 'ruby'
   # Ruby version manager
   brew 'rbenv'
+  # Compile and install Ruby for rbenv
+  brew 'ruby-build'
 
   ## Shellscript
   # Static analysis and lint tool, for (ba)sh scripts
