@@ -256,6 +256,8 @@ tap 'buo/cask-upgrade'
   cask 'keybase'
   # A password manager, digital vault, form filler and secure digital wallet
   cask '1password'
+  # The slightly more awesome standard unix password manager for teams
+  brew 'gopass'
 ### }}}
 
 
