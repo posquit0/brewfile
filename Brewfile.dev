@@ -179,6 +179,8 @@ cask_args appdir: '/Applications'
   ## Kubernetes
   # Kubernetes command-line interface
   brew 'kubernetes-cli'
+  # Plugin manager for kubectl command-line tool
+  brew 'krew'
   # The Kubernetes package manager
   brew 'kubernetes-helm'
   # Customization of kubernetes YAML configurations
