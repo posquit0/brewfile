@@ -230,3 +230,10 @@ cask_args appdir: '/Applications'
   # The Eclipse-based LDAP browser and directory client
   cask 'apache-directory-studio'
 ### }}}
+
+
+### Presentation {{{
+  # Open-source keystroke visualizer
+  cask 'keycastr'
+### }}}
+
