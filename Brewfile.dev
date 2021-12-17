@@ -43,6 +43,9 @@ cask_args appdir: '/Applications'
   brew 'git-flow'
   # Prevents you from committing sensitive information to a git repo
   brew 'git-secrets'
+  # Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
+  tap 'microsoft/git'
+  brew 'git-credential-manager-core'
   # Remove crazy big files, passwords, credentials and other private data
   brew 'bfg'
   # Text interface for Git repositories
