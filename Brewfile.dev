@@ -194,6 +194,9 @@ cask_args appdir: '/Applications'
   brew 'kustomize'
   # Tool that can switch between kubectl contexts easily and create aliases
   brew 'kubectx'
+  # Plugin for kubectl OpenID Connect authentication
+  tap 'int128/kubelogin'
+  brew 'kubelogin'
   # Kubernetes CLI to manage cluters in style
   brew 'k9s'
   # Tool for repeatable Kubernetes development
