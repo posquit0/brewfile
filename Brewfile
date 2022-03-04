@@ -63,8 +63,6 @@ tap 'buo/cask-upgrade'
   cask 'stats'
 
   ## Mac OS X
-  # Homebrew GUI App for OS X
-  cask 'cakebrew'
   # Mac App Store command line interface
   brew 'mas'
   # System Utilities for macOS
@@ -75,10 +73,6 @@ tap 'buo/cask-upgrade'
   ## Mac OS X: Quick Look Plugins
   # An Application for Inspecting macOS Installer Packages
   cask 'suspicious-package'
-  # View plain text files without a file extension
-  # cask 'qlstephen'
-  # Preview source code files with syntax highlighting
-  cask 'qlcolorcode'
 ### }}}
 
 
@@ -142,7 +136,6 @@ tap 'buo/cask-upgrade'
   # Simple, fast and user-friendly alternative to find
   brew 'fd'
   # Yet another cross-platform graphical process/system monitor.
-  tap 'clementtsang/bottom'
   brew 'bottom'
 
   # Boosts your efficiency with hotkeys, keywords, text expansion and more
@@ -198,10 +191,6 @@ tap 'buo/cask-upgrade'
   cask 'vlc'
   # Home theater/media center software and entertainment hub for digital media
   cask 'kodi'
-
-  ## Recorder
-  # An open-source screen recorder built with web technology
-  cask 'kap'
 ### }}}
 
 
