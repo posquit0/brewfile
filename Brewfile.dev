@@ -104,6 +104,8 @@ cask_args appdir: '/Applications'
   ## Node.js
   # Platform built on V8 to build network applications
   # brew 'node'
+  # Node version management
+  brew 'n'
 
   ## Python
   # Python3
