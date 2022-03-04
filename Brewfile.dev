@@ -45,7 +45,7 @@ cask_args appdir: '/Applications'
   brew 'git-secrets'
   # Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
   tap 'microsoft/git'
-  brew 'git-credential-manager-core'
+  cask 'git-credential-manager-core'
   # Remove crazy big files, passwords, credentials and other private data
   brew 'bfg'
   # Text interface for Git repositories
@@ -59,7 +59,7 @@ cask_args appdir: '/Applications'
   # OS X status bar application for Github
   # cask 'gitee'
   # The legendary Git GUI client
-  cask 'gitkraken'
+  # cask 'gitkraken'
 
   ## Mercurial
   # Scalable distributed version control system
@@ -103,7 +103,7 @@ cask_args appdir: '/Applications'
 ### Programming Language {{{
   ## Node.js
   # Platform built on V8 to build network applications
-  brew 'node'
+  # brew 'node'
 
   ## Python
   # Python3
@@ -189,7 +189,7 @@ cask_args appdir: '/Applications'
   # Plugin manager for kubectl command-line tool
   brew 'krew'
   # The Kubernetes package manager
-  brew 'kubernetes-helm'
+  brew 'helm'
   # Customization of kubernetes YAML configurations
   brew 'kustomize'
   # Tool that can switch between kubectl contexts easily and create aliases
@@ -210,7 +210,7 @@ cask_args appdir: '/Applications'
   # Production Grade K8s Installation, Upgrades, and Management
   # brew 'kops'
   # A single-node Kubernetes cluster inside a VM on your laptop
-  # cask 'minikube'
+  brew 'minikube'
 ### }}}
 
 
