@@ -106,6 +106,8 @@ cask_args appdir: '/Applications'
   # brew 'node'
   # Node version management
   brew 'n'
+  # Command-line JSON processor
+  brew 'jq'
 
   ## Python
   # Python3
@@ -170,6 +172,8 @@ cask_args appdir: '/Applications'
   ## YAML
   # Linter for YAML files
   brew 'yamllint'
+  # A portable command-line YAML, JSON and XML processor
+  brew 'yq'
 ### }}}
 
 
