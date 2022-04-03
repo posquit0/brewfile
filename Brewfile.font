@@ -22,8 +22,6 @@ cask_args appdir: '/Applications'
   cask 'homebrew/cask-fonts/font-devicons'
   # WordPress admin icon font
   cask 'homebrew/cask-fonts/font-dashicons'
-  # The premium icon font for Ionic Framework and web apps everywhere
-  cask 'homebrew/cask-fonts/font-ionicons'
 
   ## Font Family: Nanum
   cask 'homebrew/cask-fonts/font-nanum-gothic'
@@ -36,7 +34,6 @@ cask_args appdir: '/Applications'
 
   ## Font Family: ETC
   cask 'homebrew/cask-fonts/font-ubuntu'
-  cask 'homebrew/cask-fonts/font-source-han-noto-cjk'
   cask 'homebrew/cask-fonts/font-source-code-pro'
   cask 'homebrew/cask-fonts/font-roboto'
   cask 'homebrew/cask-fonts/font-hack'
@@ -61,4 +58,14 @@ cask_args appdir: '/Applications'
   cask 'homebrew/cask-fonts/font-roboto-mono-for-powerline'
   cask 'homebrew/cask-fonts/font-source-code-pro-for-powerline'
   cask 'homebrew/cask-fonts/font-ubuntu-mono-derivative-powerline'
+
+## Font Family: Nerd Font
+  cask 'homebrew/cask-fonts/font-ubuntu-mono-nerd-font'
+  cask 'homebrew/cask-fonts/font-sauce-code-pro-nerd-font'
+  cask 'homebrew/cask-fonts/font-roboto-mono-nerd-font'
+  cask 'homebrew/cask-fonts/font-mononoki-nerd-font'
+  cask 'homebrew/cask-fonts/font-jetbrains-mono-nerd-font'
+  cask 'homebrew/cask-fonts/font-inconsolata-nerd-font'
+  cask 'homebrew/cask-fonts/font-hack-nerd-font'
+  cask 'homebrew/cask-fonts/font-dejavu-sans-mono-nerd-font'
 ### }}}
