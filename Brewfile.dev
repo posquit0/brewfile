@@ -76,6 +76,8 @@ cask_args appdir: '/Applications'
   cask 'wireshark'
   # Port scanning utility for large networks
   brew 'nmap'
+  # GNU utilities for networking
+  brew 'inetutils'
 
   ## Proxy & VPN
   # Free software for OpenVPN on OS X
@@ -101,7 +103,7 @@ cask_args appdir: '/Applications'
 
 
 ### Programming Language {{{
-  ## Node.js
+  ## Node.js & Javascript & JSON
   # Platform built on V8 to build network applications
   # brew 'node'
   # Node version management
