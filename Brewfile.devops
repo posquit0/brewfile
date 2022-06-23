@@ -14,6 +14,11 @@ cask_args appdir: '/Applications'
   # A vault for securely storing and accessing AWS credentials in development environments
   cask 'aws-vault'
 
+  tap 'hashicorp/tap'
+  # Identity-based access management for dynamic infrastructure.
+  brew 'hashicorp/tap/boundary'
+  cask 'hashicorp/tap/hashicorp-boundary-desktop'
+
   # Tool to build, change, and version infrastructure
   brew 'terraform'
   # A CLI tool to switch between different versions of terraform
