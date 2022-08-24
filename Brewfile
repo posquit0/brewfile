@@ -127,6 +127,8 @@ tap 'buo/cask-upgrade'
   brew 'tree'
   # Executes a program periodically, showing output fullscreen
   brew 'watch'
+  # A modern watch command. Time machine and pager etc
+  brew 'viddy'
   # Simplified and community-driven man pages
   brew 'tldr'
   # Modern replacement for `ls`
