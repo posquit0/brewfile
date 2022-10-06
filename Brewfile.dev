@@ -212,6 +212,8 @@ cask_args appdir: '/Applications'
   # Kubernetes log viewer
   tap 'boz/repo'
   brew 'kail'
+  # Multi pod and container log tailing for Kubernetes
+  brew 'stern'
   # Bulk port forwarding Kubernetes services for local development
   tap 'txn2/tap'
   brew 'kubefwd'
