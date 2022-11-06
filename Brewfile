@@ -80,6 +80,9 @@ tap 'buo/cask-upgrade'
   ## Terminal Emulator
   # Terminal Emulator for macOS
   cask 'iterm2'
+  # A GPU-accelerated cross-platform terminal emulator and multiplexer
+  tap 'wez/wezterm'
+  brew 'wezterm'
 
   ## Terminal Multiplexer
   # Terminal multiplexer with VT100/ANSI terminal emulation
