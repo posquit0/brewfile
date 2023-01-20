@@ -26,12 +26,17 @@ cask_args appdir: '/Applications'
   # A CLI tool to switch between different versions of terraform
   tap 'warrensbox/tap'
   brew 'tfswitch'
+  # Update version constraints in your Terraform configuration
+  tap 'minamijoyo/tfupdate'
+  brew 'tfupdate'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
   # Thin wrapper for Terraform e.g. for locking state
   brew 'terragrunt'
   # Terraform linter for detecting errors that can not be detected by `terraform plan`
   brew 'tflint'
+  # Security scanner for your Terraform code
+  brew 'tfsec'
 
   # Tool for building and managing virtual machine environments
   # cask 'vagrant'
@@ -53,8 +58,10 @@ cask_args appdir: '/Applications'
   # Command line tool for Drone CI
   # tap 'drone/drone'
   # brew 'drone'
+  tap 'argoproj/tap'
   # CLI for ArgoCD
   brew 'argocd'
   # CLI for Argo Workflow
   brew 'argo'
+  brew 'kubectl-argo-rollouts'
 ### }}}
