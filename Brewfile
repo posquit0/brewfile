@@ -134,6 +134,8 @@ tap 'buo/cask-upgrade'
   brew 'viddy'
   # Simplified and community-driven man pages
   brew 'tldr'
+  # Create and view interactive cheatsheets on the command-line
+  brew 'cheat'
   # Modern replacement for `ls`
   brew 'exa'
   # Clone of cat with syntax highlighting and Git integration
