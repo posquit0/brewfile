@@ -15,6 +15,10 @@ cask_args appdir: '/Applications'
   cask 'aws-vault'
   # This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances
   cask 'session-manager-plugin'
+  # This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances
+  tap 'disneystreaming/tap'
+  # Help manage AWS systems manager with helpers
+  brew 'disneystreaming/tap/ssm-helpers'
 
   tap 'hashicorp/tap'
   # Identity-based access management for dynamic infrastructure.
@@ -29,6 +33,12 @@ cask_args appdir: '/Applications'
   # Update version constraints in your Terraform configuration
   tap 'minamijoyo/tfupdate'
   brew 'tfupdate'
+  # Interactivity select resource to plan / apply / destroy with target option
+  tap 'future-architect/tap'
+  brew 'tftarget'
+  # Automatic Terraform moved blocks
+  tap 'padok-team/tap'
+  brew 'tfautomv'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
   # Thin wrapper for Terraform e.g. for locking state
