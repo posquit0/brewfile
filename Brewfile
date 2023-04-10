@@ -36,6 +36,8 @@ tap 'buo/cask-upgrade'
   brew 'boost'
   # Vector graphics library with cross-device output support
   brew 'cairo'
+  # Open source graph visualization software
+  brew 'graphviz'
   # Framework for layout and rendering of i18n text
   brew 'pango'
   # Image manipulation library
