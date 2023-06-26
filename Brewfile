@@ -6,8 +6,6 @@
 
 cask_args appdir: '/Applications'
 
-# Install and manage GUI macOS applications
-tap 'homebrew/cask'
 # Alternate versions of Casks
 tap 'homebrew/cask-versions'
 # Integrates Homebrew formulae with macOS' `launchctl` manager
