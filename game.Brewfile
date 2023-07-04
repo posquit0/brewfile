@@ -6,7 +6,7 @@
 
 cask_args appdir: '/Applications'
 
-### Game {{{
-  ## Emulator
+### Emulator {{{
+  # Retro video game emulation
   cask 'openemu'
 ### }}}
