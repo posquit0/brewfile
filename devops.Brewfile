@@ -1,14 +1,12 @@
-# vi: filetype=brewfile
-# Brewfile.devops
+# devops.Brewfile
 #
 # Maintained by Byungjin Park <posquit0.bj@gmail.com>
-# http://www.posquit0.com/
+# https://www.posquit0.com/
 
 
 cask_args appdir: '/Applications'
 
-### DevOps {{{
-  ## AWS
+### AWS {{{
   # Universal Command Line Interface for AWS
   brew 'awscli'
   # A vault for securely storing and accessing AWS credentials in development environments
@@ -19,11 +17,11 @@ cask_args appdir: '/Applications'
   tap 'disneystreaming/tap'
   # Help manage AWS systems manager with helpers
   brew 'disneystreaming/tap/ssm-helpers'
+### }}}
 
-  tap 'hashicorp/tap'
-  # Identity-based access management for dynamic infrastructure.
-  brew 'hashicorp/tap/boundary'
-  cask 'hashicorp/tap/hashicorp-boundary-desktop'
+
+tap 'hashicorp/tap'
+### HashiCorp: Terraform {{{
 
   # Tool to build, change, and version infrastructure
   brew 'terraform'
@@ -37,7 +35,7 @@ cask_args appdir: '/Applications'
   tap 'future-architect/tap'
   brew 'tftarget'
   # Automatic Terraform moved blocks
-  tap 'padok-team/tap'
+  tap 'busser/tap'
   brew 'tfautomv'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
@@ -47,14 +45,31 @@ cask_args appdir: '/Applications'
   brew 'tflint'
   # Security scanner for your Terraform code
   brew 'tfsec'
+### }}}
 
+
+### HashiCorp: Packer {{{
+  # Tool for creating identical machine images for multiple platforms
+  brew 'packer'
+### }}}
+
+
+### HashiCorp: Vagrant {{{
   # Tool for building and managing virtual machine environments
   # cask 'vagrant'
   # Manage your vagrant machines in one place
   # cask 'vagrant-manager'
+### }}}
 
-  # Tool for creating identical machine images for multiple platforms
-  brew 'packer'
+
+### HashiCorp: Boundary {{{
+  # Identity-based access management for dynamic infrastructure.
+  brew 'hashicorp/tap/boundary'
+  cask 'hashicorp/tap/hashicorp-boundary-desktop'
+### }}}
+
+
+### Ansible {{{
   # Automate deployment, configuration, and upgrading
   brew 'ansible'
   # Best practices checker for Ansible
@@ -62,16 +77,29 @@ cask_args appdir: '/Applications'
   # Molecule aids in the development and testing of Ansible roles
   # INFO: Install using pip
   # brew 'molecule'
+### }}}
 
-  # Enables you to reproduce the CircleCI environment locally
-  # brew 'circleci'
-  # Command line tool for Drone CI
-  # tap 'drone/drone'
-  # brew 'drone'
+
+### Kubernetes {{{
   tap 'argoproj/tap'
   # CLI for ArgoCD
   brew 'argocd'
   # CLI for Argo Workflow
   brew 'argo'
   brew 'kubectl-argo-rollouts'
+### }}}
+
+
+### CI / CD {{{
+  ## GitHub Actions
+  # Run your GitHub Actions locally
+  brew 'act'
+  # Static checker for GitHub Actions workflow files
+  brew 'actionlint'
+
+  # Enables you to reproduce the CircleCI environment locally
+  # brew 'circleci'
+  # Command line tool for Drone CI
+  # tap 'drone/drone'
+  # brew 'drone'
 ### }}}
