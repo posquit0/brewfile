@@ -1,17 +1,18 @@
-# vi: filetype=brewfile
-# Brewfile.font
+# font.Brewfile
 #
 # Maintained by Byungjin Park <posquit0.bj@gmail.com>
-# http://www.posquit0.com/
+# https://www.posquit0.com/
 
 
 cask_args appdir: '/Applications'
 
-### Font {{{
+### Font Utility {{{
   # XML-based font configuration API for X Windows
   brew 'fontconfig'
+### }}}
 
-  ## Font Family: Icons
+
+### Font Family: Icons {{{
   # Most popular icon toolkit
   cask 'homebrew/cask-fonts/font-fontawesome'
   # Simple and Minimal Line Icons
@@ -22,17 +23,24 @@ cask_args appdir: '/Applications'
   cask 'homebrew/cask-fonts/font-devicons'
   # WordPress admin icon font
   cask 'homebrew/cask-fonts/font-dashicons'
+### }}}
 
-  ## Font Family: Nanum
+
+### Font Family: General {{{
+  ## Nanum
   cask 'homebrew/cask-fonts/font-nanum-gothic'
   cask 'homebrew/cask-fonts/font-nanum-gothic-coding'
   cask 'homebrew/cask-fonts/font-nanum-myeongjo'
+  cask 'homebrew/cask-fonts/font-nanum-pen-script'
 
-  ## Font Family: Open Sans
+  ## Open Sans
   cask 'homebrew/cask-fonts/font-open-sans'
-  cask 'homebrew/cask-fonts/font-open-sans-condensed'
 
-  ## Font Family: ETC
+  ## Sofia Sans
+  cask 'homebrew/cask-fonts/font-sofia-sans'
+  cask 'homebrew/cask-fonts/font-sofia-sans-condensed'
+
+  ## ETC
   cask 'homebrew/cask-fonts/font-ubuntu'
   cask 'homebrew/cask-fonts/font-source-code-pro'
   cask 'homebrew/cask-fonts/font-roboto'
@@ -42,7 +50,10 @@ cask_args appdir: '/Applications'
   cask 'homebrew/cask-fonts/font-fira-code'
   cask 'homebrew/cask-fonts/font-fira-mono'
   cask 'homebrew/cask-fonts/font-jetbrains-mono'
+### }}}
 
+
+### Font Family: Terminal {{{
   ## Font Family: Powerline
   cask 'homebrew/cask-fonts/font-anonymice-powerline'
   cask 'homebrew/cask-fonts/font-consolas-for-powerline'
@@ -59,7 +70,7 @@ cask_args appdir: '/Applications'
   cask 'homebrew/cask-fonts/font-source-code-pro-for-powerline'
   cask 'homebrew/cask-fonts/font-ubuntu-mono-derivative-powerline'
 
-## Font Family: Nerd Font
+  ## Font Family: Nerd Font
   cask 'homebrew/cask-fonts/font-ubuntu-mono-nerd-font'
   cask 'homebrew/cask-fonts/font-sauce-code-pro-nerd-font'
   cask 'homebrew/cask-fonts/font-roboto-mono-nerd-font'
