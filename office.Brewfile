@@ -14,3 +14,9 @@ cask_args appdir: '/Applications'
   # Create Impactful Presentations
   mas 'Microsoft PowerPoint', id: 462062816
 ### }}}
+
+
+### Hancom Office {{{
+  # Viewer for HWP documents
+  mas '한컴오피스 한글 2014 VP 뷰어', id: 416746898
+### }}}
