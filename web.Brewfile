@@ -14,6 +14,14 @@ tap 'homebrew/cask-versions'
   cask 'google-chrome-dev'
   # Mozilla Firefox Developer Edition
   cask 'firefox-developer-edition'
+  # Web browser focusing on privacy
+  cask 'duckduckgo'
+### }}}
+
+
+### Utility {{{
+  # An advanced utility that allows you open links, emails, and files in the application of your choice
+  mas 'OpenIn', id: 1643649331
 ### }}}
 
 
