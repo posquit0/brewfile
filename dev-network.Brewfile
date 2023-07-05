@@ -26,6 +26,14 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
+### Remote Access {{{
+  # Fast and secure remote desktop
+  mas 'Jump Desktop (RDP, VNC, Fluid)', id: 524141863
+  # Remote desktop app
+  cask 'jump-desktop-connect'
+### }}}
+
+
 ### Utility {{{
   # GNU utilities for networking
   brew 'inetutils'
