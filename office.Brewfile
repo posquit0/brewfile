@@ -6,9 +6,11 @@
 
 cask_args appdir: '/Applications'
 
-### MS Office {{{
+### Note {{{
   # A focused, flexible notes app
   mas 'Bear', id: 1091189122
+  # Easy note-taking & annotation
+  mas 'Notability', id: 360593530
 ### }}}
 
 
