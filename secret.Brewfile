@@ -45,6 +45,8 @@ cask_args appdir: '/Applications'
   cask '1password-cli'
   # Safari Extension for 1Password
   mas '1Password for Safari', id: 1569813296
+  # A lightweight app to register your device to Okta
+  mas 'Okta Verify', id: 490179405
 
   # Free security app for mobile phones and computers
   # Digital signature manager
