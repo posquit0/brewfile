@@ -16,6 +16,9 @@ tap 'homebrew/cask-versions'
   cask 'firefox-developer-edition'
   # Web browser focusing on privacy
   cask 'duckduckgo'
+
+  # A powerful menu bar browser
+  mas 'MenubarX', id: 1575588022
 ### }}}
 
 
