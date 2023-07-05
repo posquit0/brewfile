@@ -7,6 +7,12 @@
 cask_args appdir: '/Applications'
 
 ### MS Office {{{
+  # A focused, flexible notes app
+  mas 'Bear', id: 1091189122
+### }}}
+
+
+### MS Office {{{
   # Create, Edit & Share Documents
   mas 'Microsoft Word', id: 462054704
   # Spreadsheets and Data Analysis
