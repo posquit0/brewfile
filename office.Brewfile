@@ -28,3 +28,11 @@ cask_args appdir: '/Applications'
   # Viewer for HWP documents
   mas '한컴오피스 한글 2014 VP 뷰어', id: 416746898
 ### }}}
+
+
+### Presentation {{{
+  # Open-source keystroke visualizer
+  cask 'keycastr'
+  # The best screen annotation app
+  mas 'Presentify - Screen Annotation', id: 1507246666
+### }}}
