@@ -50,6 +50,13 @@ cask_args appdir: '/Applications'
 
 
 ### Utility {{{
+  # GNU File, Shell, and Text utilities
+  brew 'coreutils'
+  # Internet file retriever
+  brew 'wget'
+
+
+  ## Filesystem
   # Modern replacement for `ls`
   brew 'exa'
   # Display directories as trees
@@ -67,12 +74,23 @@ cask_args appdir: '/Applications'
   brew 'fd'
   # An extremely fast alternative to grep that respects your gitignore
   brew 'ripgrep'
+  # GNU awk utiliy
+  brew 'gawk'
 
   # Disk Usage/Free Utility - a better 'df' alternative
   brew 'duf'
   # A more intuitive version of du in rust
   brew 'dust'
 
+
+  ## Compress
+  # 7-Zip (high compression file archiver) implementation
+  brew 'p7zip'
+  # General-purpose data compression with high compression ratio
+  brew 'xz'
+  
+
+  ## Process
   # Executes a program periodically, showing output fullscreen
   brew 'watch'
   # A modern watch command. Time machine and pager etc
@@ -81,6 +99,21 @@ cask_args appdir: '/Applications'
   # A modern replacement for ps written in Rust
   brew 'procs'
 
+
+  ## Monitoring
+  # Yet another cross-platform graphical process/system monitor.
+  brew 'bottom'
+  # An interactive process viewer for Unix
+  brew 'htop'
+  # Display an interface's bandwidth usage
+  brew 'iftop'
+  # Top-like interface for container metrics
+  brew 'ctop'
+  # Glances an Eye on your system
+  brew 'glances'
+
+
+  ## MISC
   # Simplified and community-driven man pages
   brew 'tldr'
   # Create and view interactive cheatsheets on the command-line
