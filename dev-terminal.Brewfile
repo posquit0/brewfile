@@ -47,3 +47,42 @@ cask_args appdir: '/Applications'
   # Tips, tricks, and examples for zsh
   brew 'zsh-lovers'
 ### }}}
+
+
+### Utility {{{
+  # Modern replacement for `ls`
+  brew 'exa'
+  # Display directories as trees
+  brew 'tree'
+  # A new way to see and navigate directory trees
+  brew 'broot'
+  # A command-line fuzzy finder
+  brew 'fzf'
+  # A smarter `cd` command
+  brew 'zoxide'
+  # Clone of cat with syntax highlighting and Git integration
+  brew 'bat'
+
+  # Simple, fast and user-friendly alternative to find
+  brew 'fd'
+  # An extremely fast alternative to grep that respects your gitignore
+  brew 'ripgrep'
+
+  # Disk Usage/Free Utility - a better 'df' alternative
+  brew 'duf'
+  # A more intuitive version of du in rust
+  brew 'dust'
+
+  # Executes a program periodically, showing output fullscreen
+  brew 'watch'
+  # A modern watch command. Time machine and pager etc
+  brew 'viddy'
+
+  # A modern replacement for ps written in Rust
+  brew 'procs'
+
+  # Simplified and community-driven man pages
+  brew 'tldr'
+  # Create and view interactive cheatsheets on the command-line
+  brew 'cheat'
+### }}}
