@@ -7,6 +7,12 @@
 cask_args appdir: '/Applications'
 
 
+### Compress {{{
+  # All-in-One Archiver
+  mas 'Bandizip', id: 1265704574
+### }}}
+
+
 ### Transfer {{{
   ## Cloud
   # Google Drive
