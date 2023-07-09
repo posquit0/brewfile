@@ -26,7 +26,7 @@ cask_args appdir: '/Applications'
 
 ### Hancom Office {{{
   # Viewer for HWP documents
-  mas '한컴오피스 한글 2014 VP 뷰어', id: 416746898
+  mas 'Hancom Office HWP 2014 VP Viewer', id: 416746898
 ### }}}
 
 
