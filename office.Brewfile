@@ -32,7 +32,7 @@ cask_args appdir: '/Applications'
 
 ### Presentation {{{
   # Open-source keystroke visualizer
-  cask 'keycastr'
+  cask 'keycastr' if OS.mac?
   # The best screen annotation app
   mas 'Presentify - Screen Annotation', id: 1507246666
 ### }}}

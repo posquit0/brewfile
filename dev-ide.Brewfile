@@ -8,7 +8,7 @@ cask_args appdir: '/Applications'
 
 ### IDE {{{
   ## Apple Developer Tools
-  mas 'Xcode', id: 497799835  
+  mas 'Xcode', id: 497799835
 
   ## Microsoft Open-source code editor
   cask 'visual-studio-code'

@@ -26,10 +26,10 @@ cask_args appdir: '/Applications'
   # Manage your GnuPG keys with ease!
   brew 'gpg-tui'
   # Pinentry for GPG on Mac
-  brew 'pinentry-mac'
+  brew 'pinentry-mac' if OS.mac?
   # Custom GPG pinentry program for macOS that allows using Touch ID
   tap 'jorgelbg/tap'
-  brew 'pinentry-touchid'
+  brew 'pinentry-touchid' if OS.mac?
 ### }}}
 
 

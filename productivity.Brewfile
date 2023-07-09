@@ -14,7 +14,7 @@ tap 'homebrew/cask-versions'
   # Boosts your efficiency with hotkeys, keywords, text expansion and more
   # cask 'alfred'
   # Control your tools with a few keystrokes
-  cask 'raycast'
+  cask 'raycast' if OS.mac?
 ### }}}
 
 
@@ -22,12 +22,12 @@ tap 'homebrew/cask-versions'
   # A powerful menu bar browser
   mas 'MenubarX', id: 1575588022
   # Organize the menu bar icons
-  cask 'bartender'
+  cask 'bartender' if OS.mac?
 
   # The most awesome keep-awake app
   mas 'Amphetamine', id: 937984704
   # macOS system monitor in your menu bar
-  cask 'stats'
+  cask 'stats' if OS.mac?
 ### }}}
 
 
@@ -39,12 +39,12 @@ tap 'homebrew/cask-versions'
 
 ### Keyboard & Mouse & Trackpad {{{
   # Customize various input devices on your Mac
-  cask 'bettertouchtool'
+  cask 'bettertouchtool' if OS.mac?
   # Know your short cuts
-  cask 'cheatsheet'
+  cask 'cheatsheet' if OS.mac?
 
   # A powerful and stable keyboard customizer for macOS
-  cask 'karabiner-elements'
+  cask 'karabiner-elements' if OS.mac?
   # Network KVM Switch(Mouse and Keyboard Sharing)
   # cask 'synergy'
 ### }}}

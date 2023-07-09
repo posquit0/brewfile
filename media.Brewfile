@@ -9,7 +9,11 @@ cask_args appdir: '/Applications'
 ### Image {{{
   ## Viewer
   # Streamlined and convenient image viewer and browser
-  cask 'xee'
+  cask 'xee' if OS.mac?
+
+  ## Editor
+  # Simple, powerfule editing tools
+  mas 'Polarr 사진 편집기', id: 1077124956
 
   ## Utility
   # Perl lib for reading and writing EXIF metadata

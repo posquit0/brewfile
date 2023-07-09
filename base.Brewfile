@@ -53,13 +53,13 @@ tap 'buo/cask-upgrade'
 ### Utility {{{
   ## Mac OS X
   # Mac App Store command line interface
-  brew 'mas'
+  brew 'mas' if OS.mac?
   # System Utilities for macOS
-  cask 'onyx'
+  cask 'onyx' if OS.mac?
   # Swiss Army Knife for macOS
-  brew 'm-cli'
+  brew 'm-cli' if OS.mac?
 
   ## Mac OS X: Quick Look Plugins
   # An Application for Inspecting macOS Installer Packages
-  cask 'suspicious-package'
+  cask 'suspicious-package' if OS.mac?
 ### }}}

@@ -38,5 +38,5 @@ cask_args appdir: '/Applications'
   # GNU utilities for networking
   brew 'inetutils'
   # MAC spoofing GUI for macOS
-  cask 'linkliar'
+  cask 'linkliar' if OS.mac?
 ### }}}

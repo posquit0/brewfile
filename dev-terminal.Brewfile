@@ -9,7 +9,7 @@ cask_args appdir: '/Applications'
 ### Terminal Emulator {{{
   ## Terminal Emulator
   # Terminal Emulator for macOS
-  cask 'iterm2'
+  cask 'iterm2' if OS.mac?
   # A GPU-accelerated cross-platform terminal emulator and multiplexer
   cask 'wezterm'
 ### }}}
