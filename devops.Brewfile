@@ -24,7 +24,7 @@ tap 'hashicorp/tap'
 ### HashiCorp: Terraform {{{
 
   # Tool to build, change, and version infrastructure
-  brew 'terraform'
+  # brew 'terraform'
   # A CLI tool to switch between different versions of terraform
   tap 'warrensbox/tap'
   brew 'tfswitch'
