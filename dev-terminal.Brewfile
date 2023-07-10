@@ -8,6 +8,9 @@ cask_args appdir: '/Applications'
 
 ### Terminal Emulator {{{
   ## Terminal Emulator
+  # Rust-based terminal
+  cask 'warp' if OS.mac?
+
   # Terminal Emulator for macOS
   cask 'iterm2' if OS.mac?
   # A GPU-accelerated cross-platform terminal emulator and multiplexer
@@ -16,6 +19,9 @@ cask_args appdir: '/Applications'
 
 
 ### Terminal Multiplexer {{{
+  # A terminal workspace with batteries included
+  brew 'zellij'
+
   # Terminal multiplexer with VT100/ANSI terminal emulation
   brew 'screen'
   # A terminal multiplexer, allowing to access multiple separate terminal sessions
@@ -118,4 +124,6 @@ cask_args appdir: '/Applications'
   brew 'tldr'
   # Create and view interactive cheatsheets on the command-line
   brew 'cheat'
+  # Record and share your terminal sessions, the simple way
+  brew 'asciinema'
 ### }}}
