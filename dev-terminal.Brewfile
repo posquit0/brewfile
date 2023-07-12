@@ -94,7 +94,7 @@ cask_args appdir: '/Applications'
   brew 'p7zip'
   # General-purpose data compression with high compression ratio
   brew 'xz'
-  
+
 
   ## Process
   # Executes a program periodically, showing output fullscreen
@@ -104,6 +104,9 @@ cask_args appdir: '/Applications'
 
   # A modern replacement for ps written in Rust
   brew 'procs'
+
+  # Command-line benchmarking tool
+  brew 'hyperfine'
 
 
   ## Monitoring
