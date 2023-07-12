@@ -34,6 +34,8 @@ tap 'homebrew/cask-versions'
 ### Time Management {{{
   # The calendar app you won't be able to live without
   # cask 'fantastical'
+  # Calendar software focusing on flexibility and reliability
+  cask 'busycal'
 ### }}}
 
 
