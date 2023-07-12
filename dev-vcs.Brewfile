@@ -18,29 +18,43 @@ cask_args appdir: '/Applications'
 ### VCS: Git {{{
   # Distributed revision control system
   brew 'git'
+
+
+  ## Git Extension
   # Git extension for versioning large files
   brew 'git-lfs'
-  # Small git utilities
-  brew 'git-extras'
   # Extensions to follow Vincent Driessen's branching model
   brew 'git-flow'
-  # Prevents you from committing sensitive information to a git repo
-  brew 'git-secrets'
-  # Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
-  tap 'microsoft/git'
-  cask 'git-credential-manager-core'
-  # Remove crazy big files, passwords, credentials and other private data
-  brew 'bfg'
+  # Small git utilities
+  brew 'git-extras'
+
+
+  ## Git Client
   # Text interface for Git repositories
   brew 'tig'
   # A simple terminal UI for git commands
   brew 'lazygit'
-  # A framework for managing and maintaining multi-language pre-commit hooks
-  brew 'pre-commit'
+
   # OS X status bar application for GitHub
   # cask 'gitee'
   # The legendary Git GUI client
   # cask 'gitkraken'
+  
+
+  ## Git Utility
+  # Prevents you from committing sensitive information to a git repo
+  brew 'git-secrets'
+  # Remove crazy big files, passwords, credentials and other private data
+  brew 'bfg'
+
+  # Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
+  tap 'microsoft/git'
+  cask 'git-credential-manager-core'
+
+  # A framework for managing and maintaining multi-language pre-commit hooks
+  brew 'pre-commit'
+  # Syntax-highlighting pager for git and diff output
+  brew 'git-delta'
 ### }}}
 
 
