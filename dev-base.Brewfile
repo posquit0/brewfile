@@ -26,7 +26,7 @@ cask_args appdir: '/Applications'
   brew 'yq'
   # Linter for YAML files
   brew 'yamllint'
-  
+
   ## Node.js & Javascript
   # Platform built on V8 to build network applications
   # brew 'node'
@@ -46,6 +46,12 @@ cask_args appdir: '/Applications'
   brew 'go'
   # Go cross compile tool
   brew 'gox'
+
+  ## Rust
+  # Safe, concurrent, practical language
+  brew 'rust'
+  # A Rust compiler front-end for IDEs
+  brew 'rust-analyzer'
 
   ## C Family
   # GNU compiler collection
