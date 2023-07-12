@@ -14,7 +14,7 @@ cask_args appdir: '/Applications'
 
 ### Team Communication {{{
   # Team communication and collaboration software
-  mas 'Slack', id: 803453959
+  mas 'Slack for Desktop', id: 803453959
 ### }}}
 
 
