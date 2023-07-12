@@ -75,6 +75,8 @@ cask_args appdir: '/Applications'
   brew 'zoxide'
   # Clone of cat with syntax highlighting and Git integration
   brew 'bat'
+  # Pager program similar to more
+  brew 'less'
 
   # Simple, fast and user-friendly alternative to find
   brew 'fd'
