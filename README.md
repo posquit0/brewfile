@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/posquit0/brewfile" title="Brewfile">
-    <img alt="posquit0's brewfile" src="https://raw.githubusercontent.com/posquit0/i/master/brewfile/icon.png" width="128px" />
+    <img alt="posquit0's brewfile" src="https://raw.githubusercontent.com/posquit0/i/main/brewfile/icon.png" width="128px" />
   </a>
   <br />
   <h1>Brewfile</h1>
@@ -89,6 +89,6 @@ Like brewfile? Follow the repository on [GitHub](https://github.com/posquit0/bre
 
 ## License
 
-Provided under the terms of the [MIT License](https://github.com/posquit0/brewfile/blob/master/LICENSE).
+Provided under the terms of the [MIT License](https://github.com/posquit0/brewfile/blob/main/LICENSE).
 
 Copyright © 2018-2023, [Byungjin Park](https://www.posquit0.com).
