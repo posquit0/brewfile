@@ -125,6 +125,9 @@ cask_args appdir: '/Applications'
 
 
   ## MISC
+  # Manage your dotfiles across multiple diverse machines, securely
+  brew 'chezmoi'
+
   # Simplified and community-driven man pages
   brew 'tldr'
   # Create and view interactive cheatsheets on the command-line
