@@ -28,6 +28,10 @@ cask_args appdir: '/Applications'
   brew 'tmux'
   # Reattach process (e.g., tmux) to background
   brew 'reattach-to-user-namespace'
+
+  # Share your terminal as a web application
+  tap 'sorenisanerd/gotty'
+  brew 'gotty'
 ### }}}
 
 
