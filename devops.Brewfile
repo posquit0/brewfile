@@ -28,6 +28,9 @@ tap 'hashicorp/tap'
   # A CLI tool to switch between different versions of terraform
   tap 'warrensbox/tap'
   brew 'tfswitch'
+  # A Terraform Automation and Collaboration Software credentials helper
+  tap 'tonedefdev/terracreds'
+  brew 'terracreds'
   # Update version constraints in your Terraform configuration
   tap 'minamijoyo/tfupdate'
   brew 'tfupdate'
