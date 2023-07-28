@@ -50,8 +50,6 @@ cask_args appdir: '/Applications'
   ## Rust
   # Safe, concurrent, practical language
   brew 'rust'
-  # A Rust compiler front-end for IDEs
-  brew 'rust-analyzer'
 
   ## C Family
   # GNU compiler collection
