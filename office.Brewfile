@@ -7,6 +7,8 @@
 cask_args appdir: '/Applications'
 
 ### Note {{{
+  # Command-line note taker
+  brew 'jrnl'
   # A focused, flexible notes app
   mas 'Bear', id: 1091189122
   # Easy note-taking & annotation
