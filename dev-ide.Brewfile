@@ -21,6 +21,8 @@ cask_args appdir: '/Applications'
   brew 'vim'
   # Ambitious Vim-fork focused on extensibility and agility
   brew 'neovim'
+  # No Nonsense Neovim Client in Rust
+  cask 'neovide'
 
   ## Editor: Emacs
   # GNU Emacs text editor
