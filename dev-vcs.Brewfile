@@ -49,7 +49,7 @@ cask_args appdir: '/Applications'
 
   # Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
   tap 'microsoft/git'
-  cask 'git-credential-manager-core'
+  cask 'git-credential-manager'
 
   # A framework for managing and maintaining multi-language pre-commit hooks
   brew 'pre-commit'
