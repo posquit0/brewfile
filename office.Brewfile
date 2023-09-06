@@ -13,6 +13,8 @@ cask_args appdir: '/Applications'
   mas 'Bear', id: 1091189122
   # Easy note-taking & annotation
   mas 'Notability', id: 360593530
+  # App to write, plan, collaborate, and get organized
+  cask 'notion'
 ### }}}
 
 
@@ -28,7 +30,7 @@ cask_args appdir: '/Applications'
 
 ### Hancom Office {{{
   # Viewer for HWP documents
-  mas 'Hancom Office HWP 2014 VP Viewer', id: 416746898
+  # mas 'Hancom Office HWP 2014 VP Viewer', id: 416746898
 ### }}}
 
 
