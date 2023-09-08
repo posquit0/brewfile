@@ -131,6 +131,8 @@ cask_args appdir: '/Applications'
   ## MISC
   # Manage your dotfiles across multiple diverse machines, securely
   brew 'chezmoi'
+  # Load/unload environment variables based on $PWD
+  brew 'direnv'
 
   # Simplified and community-driven man pages
   brew 'tldr'
