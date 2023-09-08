@@ -59,6 +59,12 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
+### Prompt {{{
+  # The minimal, blazing-fast, and infinitely customizable prompt for any shell
+  brew 'starship'
+### }}}
+
+
 ### Utility {{{
   # GNU File, Shell, and Text utilities
   brew 'coreutils'
