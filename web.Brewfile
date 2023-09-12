@@ -16,6 +16,9 @@ tap 'homebrew/cask-versions'
   cask 'firefox-developer-edition'
   # Web browser focusing on privacy
   cask 'duckduckgo'
+
+  # Pager/text based Browser
+  brew 'w3m'
 ### }}}
 
 
