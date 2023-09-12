@@ -20,9 +20,8 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
-tap 'hashicorp/tap'
 ### HashiCorp: Terraform {{{
-
+  tap 'hashicorp/tap'
   # Tool to build, change, and version infrastructure
   # brew 'terraform'
   # A CLI tool to switch between different versions of terraform
