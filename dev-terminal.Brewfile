@@ -74,7 +74,7 @@ cask_args appdir: '/Applications'
 
   ## Filesystem
   # Modern replacement for `ls`
-  brew 'exa'
+  brew 'eza'
   # Display directories as trees
   brew 'tree'
   # A new way to see and navigate directory trees
