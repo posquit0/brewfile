@@ -8,6 +8,7 @@ cask_args appdir: '/Applications'
 
 ### Note {{{
   # Command-line and local web note‑taking, bookmarking, and archiving
+  tap 'xwmx/taps'
   brew 'xwmx/taps/nb'
   # A focused, flexible notes app
   mas 'Bear', id: 1091189122
