@@ -18,6 +18,14 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
+### Design {{{
+  # Online diagram software
+  cask 'drawio'
+  # Collaborative team software
+  cask 'figma'
+### }}}
+
+
 ### Adobe {{{
   # View, create, manipulate, print and manage files in Portable Document Format
   cask 'adobe-acrobat-pro'
