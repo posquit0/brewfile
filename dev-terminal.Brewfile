@@ -139,6 +139,8 @@ cask_args appdir: '/Applications'
   brew 'chezmoi'
   # Load/unload environment variables based on $PWD
   brew 'direnv'
+  # Personal information dashboard for your Terminal
+  brew 'wtfutil'
 
   # Simplified and community-driven man pages
   brew 'tldr'
