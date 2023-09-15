@@ -24,7 +24,12 @@ cask_args appdir: '/Applications'
   brew 'k9s'
   
   # The Kubernetes package manager
+  tap 'helm/tap'
   brew 'helm'
+  # Hosting Helm Charts via GitHub Pages and Releases
+  brew 'chart-releaser'
+  # CLI tool for linting and testing Helm charts
+  brew 'chart-testing'
   # Customization of kubernetes YAML configurations
   brew 'kustomize'
   # Tool for repeatable Kubernetes development
