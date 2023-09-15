@@ -26,6 +26,8 @@ cask_args appdir: '/Applications'
   # The Kubernetes package manager
   tap 'helm/tap'
   brew 'helm'
+  # A declarative spec for deploying Helm charts
+  brew 'helmfile'
   # Hosting Helm Charts via GitHub Pages and Releases
   brew 'chart-releaser'
   # CLI tool for linting and testing Helm charts
