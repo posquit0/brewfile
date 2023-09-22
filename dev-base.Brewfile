@@ -38,8 +38,12 @@ cask_args appdir: '/Applications'
   ## Python
   # Python3
   brew 'python'
+  # Python package management tool
+  brew 'poetry'
   # Python dependency management tool
   brew 'pipenv'
+  # Install and Run Python Applications in Isolated Environments
+  brew 'pipx'
 
   ## Golang
   # Open source programming language to build simple/reliable/efficient software
