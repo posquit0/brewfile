@@ -14,6 +14,9 @@ cask_args appdir: '/Applications'
 
 
 ### Transfer {{{
+  # Easily and securely send things from one computer to another
+  brew 'croc'
+
   ## Cloud
   # Google Drive
   cask 'google-drive'
