@@ -58,7 +58,7 @@ cask_args appdir: '/Applications'
 
 ### HashiCorp: Vagrant {{{
   # Tool for building and managing virtual machine environments
-  # cask 'vagrant'
+  cask 'hashicorp/tap/hashicorp-vagrant'
   # Manage your vagrant machines in one place
   # cask 'vagrant-manager'
 ### }}}
