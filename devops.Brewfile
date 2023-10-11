@@ -71,6 +71,14 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
+### HashiCorp: Consul {{{
+  # A distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
+  brew 'hashicorp/tap/consul'
+  # First-class support for Consul Service Mesh on Kubernetes 
+  brew 'hashicorp/tap/consul-k8s'
+### }}}
+
+
 ### Ansible {{{
   # Automate deployment, configuration, and upgrading
   brew 'ansible'
