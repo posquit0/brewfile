@@ -44,7 +44,10 @@ cask_args appdir: '/Applications'
   # Plugin for kubectl OpenID Connect authentication
   tap 'int128/kubelogin'
   brew 'kubelogin'
+  # Kubernetes Native Policy Management
+  brew 'kyverno'
 
+  ## Monitoring & Debugging
   # Kubernetes log viewer
   tap 'boz/repo'
   brew 'kail'
@@ -54,6 +57,7 @@ cask_args appdir: '/Applications'
   tap 'txn2/tap'
   brew 'kubefwd'
 
+  ## Cluster Provisioning
   # Production Grade K8s Installation, Upgrades, and Management
   brew 'kops'
   # A single-node Kubernetes cluster inside a VM on your laptop
