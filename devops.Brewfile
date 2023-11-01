@@ -41,6 +41,12 @@ cask_args appdir: '/Applications'
   brew 'tfautomv'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
+  # A schema inspector for Terraform providers
+  tap 'minamijoyo/tfschema'
+  brew 'tfschema'
+  # Display your Terraform module call stack in your terminal
+  tap 'busser/tap'
+  brew 'tftree'
   # Thin wrapper for Terraform e.g. for locking state
   brew 'terragrunt'
   # Terraform linter for detecting errors that can not be detected by `terraform plan`
