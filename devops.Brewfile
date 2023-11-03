@@ -103,6 +103,9 @@ cask_args appdir: '/Applications'
   # CLI for Argo Workflow
   brew 'argo'
   brew 'kubectl-argo-rollouts'
+
+  # Istio configuration command-line utility
+  brew 'istioctl'
 ### }}}
 
 
