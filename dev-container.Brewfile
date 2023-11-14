@@ -41,6 +41,9 @@ cask_args appdir: '/Applications'
   brew 'krew'
   # Tool that can switch between kubectl contexts easily and create aliases
   brew 'kubectx'
+  # The single pane of glass for all of your kubeconfig files.
+  tap 'danielfoehrkn/switch'
+  brew 'switch'
   # Plugin for kubectl OpenID Connect authentication
   tap 'int128/kubelogin'
   brew 'kubelogin'
