@@ -39,6 +39,8 @@ cask_args appdir: '/Applications'
 
   # Plugin manager for kubectl command-line tool
   brew 'krew'
+
+  ## Access Control
   # Tool that can switch between kubectl contexts easily and create aliases
   brew 'kubectx'
   # The single pane of glass for all of your kubeconfig files.
@@ -49,6 +51,9 @@ cask_args appdir: '/Applications'
   brew 'kubelogin'
   # Kubernetes Native Policy Management
   brew 'kyverno'
+  # Summarize Kubernetes RBAC roles for the specified subjects
+  tap 'Ladicle/kubectl-bindrole'
+  brew 'kubectl-rolesum'
 
   ## Monitoring & Debugging
   # Kubernetes log viewer
