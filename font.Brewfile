@@ -43,6 +43,7 @@ cask_args appdir: '/Applications'
   ## ETC
   cask 'homebrew/cask-fonts/font-ubuntu'
   cask 'homebrew/cask-fonts/font-source-code-pro'
+  cask 'homebrew/cask-fonts/font-reddit-sans'
   cask 'homebrew/cask-fonts/font-roboto'
   cask 'homebrew/cask-fonts/font-hack'
   cask 'homebrew/cask-fonts/font-d2coding'
