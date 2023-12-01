@@ -10,6 +10,8 @@ cask_args appdir: '/Applications'
 ### GitHub {{{
   # GitHub command-line tool
   brew 'gh'
+  # GitHub notifications on your menu bar. Available on macOS, Windows & Linux
+  cask 'gitify'
   # Safari Extension that simplifies the GitHub.com interface and adds useful features.
   mas 'Refined GitHub', id: 1519867270  
 ### }}}
