@@ -7,6 +7,8 @@
 cask_args appdir: '/Applications'
 
 ### Analysis {{{
+  # Terminal UI for tshark, inspired by Wireshark
+  brew 'termshark'
   # The world’s foremost and widely-used network protocol analyzer
   cask 'wireshark'
   # Port scanning utility for large networks
