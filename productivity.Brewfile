@@ -36,6 +36,8 @@ tap 'homebrew/cask-versions'
   # cask 'fantastical'
   # Calendar software focusing on flexibility and reliability
   cask 'busycal'
+  # Calendar for professionals and teams
+  cask 'notion-calendar'
 ### }}}
 
 
