@@ -13,6 +13,10 @@ cask_args appdir: '/Applications'
   
   # Next generation open source RPC library and framework
   brew 'grpc'
+  # Like cURL, but for gRPC
+  brew 'grpcurl'
+  # An interactive web UI for gRPC, along the lines of postman
+  brew 'grpcui'
 ### }}}
 
 
