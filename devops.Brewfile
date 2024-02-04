@@ -122,3 +122,10 @@ cask_args appdir: '/Applications'
   # tap 'drone/drone'
   # brew 'drone'
 ### }}}
+
+
+### MISC {{{
+  # Artificial Intelligence Infrastructure-as-Code Generator
+  tap 'gofireflyio/aiac'
+  brew 'aiac'
+### }}}
