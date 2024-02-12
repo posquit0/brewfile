@@ -15,6 +15,9 @@ cask_args appdir: '/Applications'
   brew 'cmake'
   # GNU debugger
   brew 'gdb'
+
+  # Curses-based tool for viewing and analyzing log files
+  brew 'lnav'
 ### }}}
 
 
