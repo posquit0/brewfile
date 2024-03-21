@@ -23,6 +23,6 @@ cask_args appdir: '/Applications'
 ### GUI {{{
   # Powerful HTTP and GraphQL tool belt
   cask 'insomnia'
-  # The most advanced API tool for Mac
-  cask 'paw' if OS.mac?
+  # HTTP client that helps testing and describing APIs for Mac
+  cask 'rapidapi' if OS.mac?
 ### }}}
