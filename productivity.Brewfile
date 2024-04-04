@@ -38,6 +38,9 @@ tap 'homebrew/cask-versions'
   # cask 'busycal'
   # Calendar for professionals and teams
   cask 'notion-calendar'
+
+  # Time blocking platform to save 2 hours every day
+  cask 'akiflow'
 ### }}}
 
 
