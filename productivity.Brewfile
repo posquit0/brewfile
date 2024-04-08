@@ -49,6 +49,8 @@ tap 'homebrew/cask-versions'
   cask 'bettertouchtool' if OS.mac?
   # Know your short cuts
   cask 'cheatsheet' if OS.mac?
+  # Lightweight clipboard manager for macOS
+  cask 'maccy' if OS.mac?
 
   # A powerful and stable keyboard customizer for macOS
   cask 'karabiner-elements' if OS.mac?
