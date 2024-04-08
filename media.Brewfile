@@ -27,6 +27,8 @@ cask_args appdir: '/Applications'
   cask 'vlc'
   # Home theater/media center software and entertainment hub for digital media
   cask 'kodi'
+  # Free and open-source media player
+  cask 'iina'
 
   ## Transcoder
   # Open-source video transcoder available for Linux, Mac, and Windows
