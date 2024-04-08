@@ -132,6 +132,8 @@ cask_args appdir: '/Applications'
   brew 'ctop'
   # Glances an Eye on your system
   brew 'glances'
+  # A dynamic real-time view of running eBPF programs
+  brew 'bpftop' if OS.linux?
 
 
   ## MISC
