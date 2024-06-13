@@ -53,6 +53,9 @@ cask_args appdir: '/Applications'
   brew 'tflint'
   # Security scanner for your Terraform code
   brew 'tfsec'
+  # Terraform textual UI
+  tap 'idoavrah/homebrew'
+  brew 'tftui'
 ### }}}
 
 
