@@ -35,6 +35,10 @@ cask_args appdir: '/Applications'
   # brew 'node'
   # Node version management
   brew 'n'
+  # Fast and simple Node.js version manager
+  brew 'fnm'
+  # JavaScript toolchain manager for reproducible environments
+  brew 'volta'
   # Secure runtime for JavaScript and TypeScript
   brew 'deno'
 
