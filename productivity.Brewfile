@@ -57,3 +57,9 @@ tap 'homebrew/cask-versions'
   # Network KVM Switch(Mouse and Keyboard Sharing)
   # cask 'synergy'
 ### }}}
+
+
+### AI {{{
+  # Get up and running with large language models.
+  cask 'ollama'
+### }}}
