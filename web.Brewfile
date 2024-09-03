@@ -34,3 +34,9 @@ tap 'homebrew/cask-versions'
   # Adobe Flash Player PPAPI (plugin for Opera and Chromium)
   # cask 'flash-ppapi'
 ### }}}
+
+
+### Web3 {{{
+  # An unobtrusive and user-friendly desktop application for IPFS 
+  cask 'ipfs'
+### }}}
