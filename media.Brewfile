@@ -36,3 +36,10 @@ cask_args appdir: '/Applications'
   # Open-source video transcoder available for Linux, Mac, and Windows
   cask 'handbrake'
 ### }}}
+
+
+### News {{{
+  # Hacker News in the terminal
+  tap 'ggerganov/ggerganov'
+  brew 'hnterm'
+### }}}
