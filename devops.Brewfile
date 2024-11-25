@@ -88,6 +88,12 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
+### HashiCorp: HCP {{{
+  # CLI for HCP (HashiCorp Cloud Platform)
+  brew 'hashicorp/tap/hcp'
+### }}}
+
+
 ### Ansible {{{
   # Automate deployment, configuration, and upgrading
   brew 'ansible'
