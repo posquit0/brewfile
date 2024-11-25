@@ -15,3 +15,9 @@
   tap 'ethereum/ethereum'
   brew 'solidity'
 ### }}}
+
+
+### Aptos {{{
+  # Layer 1 blockchain built to support fair access to decentralized assets for all
+  brew 'aptos'
+### }}}
