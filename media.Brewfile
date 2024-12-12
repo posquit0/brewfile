@@ -10,6 +10,8 @@ cask_args appdir: '/Applications'
   ## Viewer
   # Streamlined and convenient image viewer and browser
   cask 'xee' if OS.mac?
+  # Practical and minimal image viewer
+  cask 'qview'
 
   ## Editor
   # Simple, powerfule editing tools
