@@ -62,4 +62,6 @@ tap 'homebrew/cask-versions'
 ### AI {{{
   # Get up and running with large language models.
   cask 'ollama'
+  # Search and discovery with AI
+  mas 'Perplexity: Ask Anything', id: 6714467650
 ### }}}
