@@ -8,7 +8,7 @@ cask_args appdir: '/Applications'
 
 ### Email {{{
   # The best personal email client
-  mas 'Spark – Email App by Readdle', id: 1176895641
+  mas 'Spark Desktop', id: 6445813049
 ### }}}
 
 
