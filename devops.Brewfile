@@ -56,6 +56,8 @@ cask_args appdir: '/Applications'
   # Terraform textual UI
   tap 'idoavrah/homebrew'
   brew 'tftui'
+  # Cost estimates for Terraform
+  brew 'infracost'
 ### }}}
 
 
