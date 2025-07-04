@@ -64,4 +64,6 @@ tap 'homebrew/cask-versions'
   cask 'ollama'
   # Search and discovery with AI
   mas 'Perplexity: Ask Anything', id: 6714467650
+  # Interact with Google Gemini AI models from the command-line
+  brew 'gemini-cli'
 ### }}}
