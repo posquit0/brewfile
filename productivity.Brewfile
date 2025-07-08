@@ -62,8 +62,13 @@ tap 'homebrew/cask-versions'
 ### AI {{{
   # Get up and running with large language models.
   cask 'ollama'
+
   # Search and discovery with AI
   mas 'Perplexity: Ask Anything', id: 6714467650
+
   # Interact with Google Gemini AI models from the command-line
   brew 'gemini-cli'
+
+  # Anthropic's official Claude AI desktop app
+  cask 'claude'
 ### }}}
