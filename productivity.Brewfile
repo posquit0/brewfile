@@ -71,4 +71,6 @@ tap 'homebrew/cask-versions'
 
   # Anthropic's official Claude AI desktop app
   cask 'claude'
+  # Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp
+  brew 'claude-squad'
 ### }}}
