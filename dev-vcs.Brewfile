@@ -49,6 +49,8 @@ cask_args appdir: '/Applications'
   # Remove crazy big files, passwords, credentials and other private data
   brew 'bfg'
 
+  # Git credential helper interfacing with pass
+  brew 'pass-git-helper'
   # Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
   tap 'microsoft/git'
   cask 'git-credential-manager'
