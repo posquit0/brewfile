@@ -59,6 +59,12 @@ tap 'homebrew/cask-versions'
 ### }}}
 
 
+### Voice Dictation {{{
+  # Voice-to-text app for macOS to transcribe what you say to text almost instantly
+  cask 'voiceink' if OS.mac?
+### }}}
+
+
 ### AI {{{
   # Get up and running with large language models.
   cask 'ollama'
