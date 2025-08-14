@@ -6,9 +6,6 @@
 
 cask_args appdir: '/Applications'
 
-# Alternate versions of Casks
-tap 'homebrew/cask-versions'
-
 
 ### Launcher {{{
   # Boosts your efficiency with hotkeys, keywords, text expansion and more

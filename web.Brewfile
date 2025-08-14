@@ -6,14 +6,13 @@
 
 cask_args appdir: '/Applications'
 
-# Alternate versions of Casks
-tap 'homebrew/cask-versions'
-
 ### Web Browser {{{
   # Google Chrome Developer Edition
   cask 'google-chrome-dev'
   # Mozilla Firefox Developer Edition
   cask 'firefox-developer-edition'
+  # Chromium based browser
+  cask 'arc'
   # Web browser focusing on privacy
   cask 'duckduckgo'
 
