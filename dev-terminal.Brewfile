@@ -9,7 +9,7 @@ cask_args appdir: '/Applications'
 ### Terminal Emulator {{{
   ## Terminal Emulator
   # Rust-based terminal
-  cask 'warp' if OS.mac?
+  # cask 'warp' if OS.mac?
   # Terminal emulator that uses platform-native UI and GPU acceleration
   cask 'ghostty'
 
