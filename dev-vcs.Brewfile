@@ -50,7 +50,7 @@ cask_args appdir: '/Applications'
   brew 'bfg'
 
   # Git credential helper interfacing with pass
-  brew 'pass-git-helper'
+  # brew 'pass-git-helper'
   # Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
   tap 'microsoft/git'
   cask 'git-credential-manager'
