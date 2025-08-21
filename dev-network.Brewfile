@@ -13,6 +13,8 @@ cask_args appdir: '/Applications'
   cask 'wireshark'
   # Port scanning utility for large networks
   brew 'nmap'
+  # Command-line DNS Client for Humans. Written in Golang
+  brew 'doggo'
 
   # Analyze Monitor Optimize Wi-Fi
   mas 'WiFi Explorer: Scanner', id: 494803304  
