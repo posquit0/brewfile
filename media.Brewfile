@@ -22,6 +22,8 @@ cask_args appdir: '/Applications'
   brew 'exiftool'
   # Powerful yet simple to use screenshot software
   cask 'flameshot'
+  # The ultimate screenshotting tool for Mac
+  cask 'shottr'
 ### }}}
 
 
