@@ -47,6 +47,8 @@ cask_args appdir: '/Applications'
   brew 'pipenv'
   # Install and Run Python Applications in Isolated Environments
   brew 'pipx'
+  # Extremely fast Python package installer and resolver, written in Rust
+  brew 'uv'
 
   ## Golang
   # Open source programming language to build simple/reliable/efficient software
