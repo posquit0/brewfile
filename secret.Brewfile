@@ -13,6 +13,8 @@ cask_args appdir: '/Applications'
 
   # SSL/TLS cryptography library
   brew 'openssl'
+  # Mozilla CA certificate store
+  brew 'ca-certificates'
   # Enhanced version of john, a UNIX password cracker
   brew 'john-jumbo'
   # Suite of barcodes-reading tools
