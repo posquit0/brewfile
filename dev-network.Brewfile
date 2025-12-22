@@ -9,8 +9,12 @@ cask_args appdir: '/Applications'
 ### Analysis {{{
   # Terminal UI for tshark, inspired by Wireshark
   brew 'termshark'
-  # The world’s foremost and widely-used network protocol analyzer
-  cask 'wireshark'
+  # The command-line utilities of Wireshark 
+  brew 'wireshark'
+  # The world’s foremost and widely-used network protocol analyzer (GUI version of Wireshark)
+  cask 'wireshark-app'
+  # If your list of available capture interfaces is empty
+  # cask 'wireshark-chmodbpf'
   # Port scanning utility for large networks
   brew 'nmap'
   # Command-line DNS Client for Humans. Written in Golang
