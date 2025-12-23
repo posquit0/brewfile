@@ -23,6 +23,8 @@ cask_args appdir: '/Applications'
   brew 'neovim'
   # No Nonsense Neovim Client in Rust
   cask 'neovide'
+  # Parser generator tool
+  brew 'tree-sitter-cli'
 
   ## Editor: Emacs
   # GNU Emacs text editor
