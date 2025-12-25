@@ -19,6 +19,8 @@ cask_args appdir: '/Applications'
   brew 'nmap'
   # Command-line DNS Client for Humans. Written in Golang
   brew 'doggo'
+  # A prettier way to inspect network connections
+  brew 'snitch'
 
   # Analyze Monitor Optimize Wi-Fi
   mas 'WiFi Explorer: Scanner', id: 494803304  
