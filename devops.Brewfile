@@ -11,6 +11,9 @@ cask_args appdir: '/Applications'
   brew 'awscli'
   # A vault for securely storing and accessing AWS credentials in development environments
   cask 'aws-vault'
+  # A terminal-based AWS resource viewer and manager
+  tap 'huseyinbabal/tap'
+  brew 'huseyinbabal/tap/taws'
   # This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances
   cask 'session-manager-plugin'
   # This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances
