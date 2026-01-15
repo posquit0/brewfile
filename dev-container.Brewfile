@@ -47,7 +47,6 @@ cask_args appdir: '/Applications'
   tap 'danielfoehrkn/switch'
   brew 'switch'
   # Plugin for kubectl OpenID Connect authentication
-  tap 'int128/kubelogin'
   brew 'kubelogin'
   # Kubernetes Native Policy Management
   brew 'kyverno'
