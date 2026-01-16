@@ -64,7 +64,7 @@ cask_args appdir: '/Applications'
 
 ### AI {{{
   # Get up and running with large language models.
-  cask 'ollama'
+  cask 'ollama-app'
 
   # Search and discovery with AI
   mas 'Perplexity: Ask Anything', id: 6714467650
@@ -76,4 +76,9 @@ cask_args appdir: '/Applications'
   cask 'claude'
   # Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp
   brew 'claude-squad'
+
+  # Agent-centric IDE with spec-driven development
+  cask 'kiro'
+  # AI-powered productivity tool for the command-line
+  cask 'kiro-cli'
 ### }}}
