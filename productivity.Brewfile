@@ -28,6 +28,12 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
+### Task Management {{{
+  # App to manage software development and track bugs
+  cask 'linear-linear'
+### }}}
+
+
 ### Time Management {{{
   # The calendar app you won't be able to live without
   # cask 'fantastical'
