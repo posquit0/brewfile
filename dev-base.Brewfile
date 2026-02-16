@@ -17,6 +17,8 @@ cask_args appdir: '/Applications'
   brew 'gdb'
   # Polyglot runtime manager
   brew 'mise'
+  # Tool for working with usage-spec CLIs
+  brew 'usage'
 
   # Curses-based tool for viewing and analyzing log files
   brew 'lnav'
