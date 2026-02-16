@@ -15,6 +15,8 @@ cask_args appdir: '/Applications'
   brew 'cmake'
   # GNU debugger
   brew 'gdb'
+  # Polyglot runtime manager
+  brew 'mise'
 
   # Curses-based tool for viewing and analyzing log files
   brew 'lnav'
@@ -33,8 +35,6 @@ cask_args appdir: '/Applications'
   ## Node.js & Javascript
   # Platform built on V8 to build network applications
   # brew 'node'
-  # JavaScript toolchain manager for reproducible environments
-  brew 'volta'
   # Secure runtime for JavaScript and TypeScript
   brew 'deno'
 
