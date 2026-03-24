@@ -87,4 +87,7 @@ cask_args appdir: '/Applications'
   cask 'kiro'
   # AI-powered productivity tool for the command-line
   cask 'kiro-cli'
+
+  # Ghostty-based terminal with vertical tabs and notifications for AI coding agents
+  cask 'cmux'
 ### }}}
