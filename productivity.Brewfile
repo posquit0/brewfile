@@ -82,6 +82,8 @@ cask_args appdir: '/Applications'
   cask 'claude'
   # Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp
   brew 'claude-squad'
+  # Claude code parallelisation
+  cask 'conductor'
 
   # Agent-centric IDE with spec-driven development
   cask 'kiro'
