@@ -14,6 +14,8 @@ cask_args appdir: '/Applications'
   mas 'Bear', id: 1091189122
   # Easy note-taking & annotation
   mas 'Notability', id: 360593530
+  # Knowledge base that works on top of a local folder of plain text Markdown files
+  cask 'obsidian'
   # App to write, plan, collaborate, and get organized
   cask 'notion'
 ### }}}
