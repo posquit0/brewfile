@@ -12,46 +12,46 @@ cask_args appdir: '/Applications'
   # A vault for securely storing and accessing AWS credentials in development environments
   cask 'aws-vault'
   # A terminal-based AWS resource viewer and manager
-  tap 'huseyinbabal/tap'
+  tap 'huseyinbabal/tap', trusted: true
   brew 'huseyinbabal/tap/taws'
   # k9s-inspired TUI for AWS resource management with vim-style navigation
-  tap 'clawscli/tap'
+  tap 'clawscli/tap', trusted: true
   brew 'clawscli/tap/claws'
   # This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances
   cask 'session-manager-plugin'
   # This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances
-  tap 'disneystreaming/tap'
+  tap 'disneystreaming/tap', trusted: true
   # Help manage AWS systems manager with helpers
   brew 'disneystreaming/tap/ssm-helpers'
 ### }}}
 
 
 ### HashiCorp: Terraform {{{
-  tap 'hashicorp/tap'
+  tap 'hashicorp/tap', trusted: true
   # Tool to build, change, and version infrastructure
   # brew 'terraform'
   # A CLI tool to switch between different versions of terraform
-  tap 'warrensbox/tap'
+  tap 'warrensbox/tap', trusted: true
   brew 'tfswitch'
   # A Terraform Automation and Collaboration Software credentials helper
-  tap 'tonedefdev/terracreds'
+  tap 'tonedefdev/terracreds', trusted: true
   brew 'terracreds'
   # Update version constraints in your Terraform configuration
-  tap 'minamijoyo/tfupdate'
+  tap 'minamijoyo/tfupdate', trusted: true
   brew 'tfupdate'
   # Interactivity select resource to plan / apply / destroy with target option
-  tap 'future-architect/tap'
+  tap 'future-architect/tap', trusted: true
   brew 'tftarget'
   # Automatic Terraform moved blocks
-  tap 'busser/tap'
+  tap 'busser/tap', trusted: true
   brew 'tfautomv'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
   # A schema inspector for Terraform providers
-  tap 'minamijoyo/tfschema'
+  tap 'minamijoyo/tfschema', trusted: true
   brew 'tfschema'
   # Display your Terraform module call stack in your terminal
-  tap 'busser/tap'
+  tap 'busser/tap', trusted: true
   brew 'tftree'
   # Thin wrapper for Terraform e.g. for locking state
   brew 'terragrunt'
@@ -60,10 +60,10 @@ cask_args appdir: '/Applications'
   # Security scanner for your Terraform code
   brew 'tfsec'
   # Terraform textual UI
-  tap 'idoavrah/homebrew'
+  tap 'idoavrah/homebrew', trusted: true
   brew 'tftui'
   # Drive terraform at terminal velocity
-  tap 'leg100/tap'
+  tap 'leg100/tap', trusted: true
   brew 'pug'
   # Cost estimates for Terraform
   brew 'infracost'
@@ -117,7 +117,7 @@ cask_args appdir: '/Applications'
 
 
 ### Kubernetes {{{
-  tap 'argoproj/tap'
+  tap 'argoproj/tap', trusted: true
   # CLI for ArgoCD
   brew 'argocd'
   # CLI for Argo Workflow
@@ -146,7 +146,7 @@ cask_args appdir: '/Applications'
 
 ### MISC {{{
   # Artificial Intelligence Infrastructure-as-Code Generator
-  tap 'gofireflyio/aiac'
+  tap 'gofireflyio/aiac', trusted: true
   brew 'aiac'
 
   # Develop and deploy code with zero configuration

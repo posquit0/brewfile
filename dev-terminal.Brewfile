@@ -32,7 +32,7 @@ cask_args appdir: '/Applications'
   brew 'reattach-to-user-namespace'
 
   # Share your terminal as a web application
-  tap 'sorenisanerd/gotty'
+  tap 'sorenisanerd/gotty', trusted: true
   brew 'gotty'
 ### }}}
 

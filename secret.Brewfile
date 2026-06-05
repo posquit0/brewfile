@@ -30,7 +30,7 @@ cask_args appdir: '/Applications'
   # Pinentry for GPG on Mac
   brew 'pinentry-mac' if OS.mac?
   # Custom GPG pinentry program for macOS that allows using Touch ID
-  tap 'jorgelbg/tap'
+  tap 'jorgelbg/tap', trusted: true
   brew 'pinentry-touchid' if OS.mac?
 ### }}}
 
