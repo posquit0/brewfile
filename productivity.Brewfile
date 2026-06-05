@@ -66,30 +66,3 @@ cask_args appdir: '/Applications'
   # Voice-to-text app for macOS to transcribe what you say to text almost instantly
   cask 'voiceink' if OS.mac?
 ### }}}
-
-
-### AI {{{
-  # Get up and running with large language models.
-  cask 'ollama-app'
-
-  # Search and discovery with AI
-  mas 'Perplexity: Ask Anything', id: 6714467650
-
-  # Interact with Google Gemini AI models from the command-line
-  brew 'gemini-cli'
-
-  # Anthropic's official Claude AI desktop app
-  cask 'claude'
-  # Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp
-  brew 'claude-squad'
-  # Claude code parallelisation
-  cask 'conductor'
-
-  # Agent-centric IDE with spec-driven development
-  cask 'kiro'
-  # AI-powered productivity tool for the command-line
-  cask 'kiro-cli'
-
-  # Ghostty-based terminal with vertical tabs and notifications for AI coding agents
-  cask 'cmux'
-### }}}
