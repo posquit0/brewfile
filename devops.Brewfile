@@ -148,4 +148,7 @@ cask_args appdir: '/Applications'
   # Artificial Intelligence Infrastructure-as-Code Generator
   tap 'gofireflyio/aiac'
   brew 'aiac'
+
+  # Develop and deploy code with zero configuration
+  brew 'railway'
 ### }}}
