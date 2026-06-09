@@ -9,7 +9,7 @@ cask_args appdir: '/Applications'
 
 ### CLI {{{
   # User-friendly cURL replacement (command-line HTTP client)
-  brew 'httpie'
+  # brew 'httpie'
   
   # Next generation open source RPC library and framework
   brew 'grpc'
