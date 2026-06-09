@@ -21,17 +21,19 @@ cask_args appdir: '/Applications'
   cask 'font-material-icons'
   # An iconic font made for developers
   cask 'font-devicons'
-  # WordPress admin icon font
-  cask 'font-dashicons'
 ### }}}
 
 
 ### Font Family: General {{{
-  ## Nanum
+  ## Korean
   cask 'font-nanum-gothic'
   cask 'font-nanum-gothic-coding'
   cask 'font-nanum-myeongjo'
   cask 'font-nanum-pen-script'
+
+  cask 'font-batang'
+  cask 'font-gowun-batang'
+  cask 'font-gulim'
 
   ## Open Sans
   cask 'font-open-sans'
