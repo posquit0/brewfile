@@ -41,7 +41,7 @@ cask_args appdir: '/Applications'
   # The slightly more awesome standard unix password manager for teams
   brew 'gopass'
   # Editor of encrypted files
-  brew 'sops'
+  # brew 'sops'
 
   # A password manager, digital vault, form filler and secure digital wallet
   cask '1password'
