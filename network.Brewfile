@@ -7,6 +7,6 @@
 cask_args appdir: '/Applications'
 
 ### Devices {{{
-  # Enterprise Network Management
-  mas 'UniFi', id: 1057750338
+  # Enterprise Network Management (iOS version)
+  # mas 'UniFi', id: 1057750338
 ### }}}
