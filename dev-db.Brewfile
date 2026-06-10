@@ -25,7 +25,8 @@ cask_args appdir: '/Applications'
 
 ### Key-Value DB {{{
   # Persistent key-value database, with built-in net interface
-  brew 'redis'
+  # brew 'redis'
+  brew 'valkey'
 ### }}}
 
 
