@@ -55,10 +55,10 @@ cask_args appdir: '/Applications'
   tap 'terraform-linters/tap'
   cask 'terraform-linters/tap/tflint'
   # Security scanner for your Terraform code
-  brew 'tfsec'
-  # Terraform textual UI
-  tap 'idoavrah/homebrew', trusted: true
-  brew 'tftui'
+  # brew 'tfsec'
+  # Interactive TUI for performing Terraform workflows
+  tap 'SayYoungMan/tap' #, trusted: true
+  cask 'SayYoungMan/tap/tfui'
   # Drive terraform at terminal velocity
   tap 'leg100/tap', trusted: true
   brew 'pug'
