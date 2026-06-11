@@ -50,8 +50,8 @@ cask_args appdir: '/Applications'
 ### Keyboard & Mouse & Trackpad {{{
   # Customize various input devices on your Mac
   cask 'bettertouchtool' if OS.mac?
-  # Know your short cuts
-  cask 'cheatsheet' if OS.mac?
+  # Simple and handy overview of applications shortcuts
+  cask 'keyclu' if OS.mac?
   # Lightweight clipboard manager for macOS
   cask 'maccy' if OS.mac?
 
