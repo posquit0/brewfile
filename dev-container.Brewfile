@@ -8,8 +8,10 @@ cask_args appdir: '/Applications'
 
 
 ### Container {{{
-  # Docker Community Edition for Mac
-  cask 'docker'
+  # Pack, ship and run any application as a lightweight container
+  brew 'docker'
+  # App to build and share containerised applications and microservices
+  cask 'docker-desktop' if OS.mac?
   # A tool for exploring each layer in a docker image
   brew 'dive'
   # The lazier way to manage everything docker
