@@ -51,7 +51,7 @@ cask_args appdir: '/Applications'
 
 ### Perplexity {{{
   # Search and discovery with AI
-  mas 'Perplexity: Ask Anything', id: 6714467650
+  # mas 'Perplexity: Ask Anything', id: 6714467650
 ### }}}
 
 
