@@ -37,11 +37,6 @@ cask_args appdir: '/Applications'
   # A simple terminal UI for git commands
   brew 'lazygit'
 
-  # OS X status bar application for GitHub
-  # cask 'gitee'
-  # The legendary Git GUI client
-  # cask 'gitkraken'
-  
 
   ## Git Utility
   # Prevents you from committing sensitive information to a git repo
