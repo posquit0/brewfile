@@ -18,8 +18,8 @@ cask_args appdir: '/Applications'
   # Web browser focusing on privacy
   cask 'duckduckgo'
 
-  # Pager/text based Browser
-  brew 'w3m'
+  # TUI web browser with CSS, inline image and JavaScript support
+  brew 'chawan'
 ### }}}
 
 
@@ -39,5 +39,5 @@ cask_args appdir: '/Applications'
 
 ### Web3 {{{
   # An unobtrusive and user-friendly desktop application for IPFS 
-  cask 'ipfs'
+  # cask 'ipfs'
 ### }}}
