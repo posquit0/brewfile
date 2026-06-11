@@ -58,8 +58,8 @@ cask_args appdir: '/Applications'
 
   ## Monitoring & Debugging
   # Kubernetes log viewer
-  tap 'boz/repo', trusted: true
-  brew 'kail'
+  # tap 'boz/repo', trusted: true
+  # brew 'kail'
   # Multi pod and container log tailing for Kubernetes
   brew 'stern'
   # Bulk port forwarding Kubernetes services for local development
