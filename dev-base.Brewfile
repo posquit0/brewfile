@@ -38,25 +38,23 @@ cask_args appdir: '/Applications'
   # Platform built on V8 to build network applications
   # brew 'node'
   # Secure runtime for JavaScript and TypeScript
-  brew 'deno'
+  # brew 'deno'
 
   ## Python
   # Python3
   brew 'python'
   # Python package management tool
-  brew 'poetry'
+  # brew 'poetry'
   # Python dependency management tool
-  brew 'pipenv'
+  # brew 'pipenv'
   # Install and Run Python Applications in Isolated Environments
-  brew 'pipx'
+  # brew 'pipx'
   # Extremely fast Python package installer and resolver, written in Rust
-  brew 'uv'
+  # brew 'uv'
 
   ## Golang
   # Open source programming language to build simple/reliable/efficient software
   brew 'go'
-  # Go cross compile tool
-  brew 'gox'
 
   ## Rust
   # Safe, concurrent, practical language
@@ -70,9 +68,9 @@ cask_args appdir: '/Applications'
   # Powerful, clean, object-oriented scripting language
   brew 'ruby'
   # Ruby version manager
-  brew 'rbenv'
+  # brew 'rbenv'
   # Compile and install Ruby for rbenv
-  brew 'ruby-build'
+  # brew 'ruby-build'
 
   ## Shellscript
   # Static analysis and lint tool, for (ba)sh scripts
