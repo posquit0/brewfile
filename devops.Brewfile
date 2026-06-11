@@ -52,7 +52,8 @@ cask_args appdir: '/Applications'
   # Thin wrapper for Terraform e.g. for locking state
   brew 'terragrunt'
   # Terraform linter for detecting errors that can not be detected by `terraform plan`
-  brew 'tflint'
+  tap 'terraform-linters/tap'
+  cask 'terraform-linters/tap/tflint'
   # Security scanner for your Terraform code
   brew 'tfsec'
   # Terraform textual UI
