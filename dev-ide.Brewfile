@@ -22,7 +22,7 @@ cask_args appdir: '/Applications'
   # Ambitious Vim-fork focused on extensibility and agility
   brew 'neovim'
   # No Nonsense Neovim Client in Rust
-  cask 'neovide'
+  cask 'neovide-app'
   # Parser generator tool
   brew 'tree-sitter-cli'
 
