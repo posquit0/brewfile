@@ -47,8 +47,8 @@ cask_args appdir: '/Applications'
   # Git credential helper interfacing with pass
   # brew 'pass-git-helper'
   # Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
-  tap 'microsoft/git', trusted: true
-  cask 'git-credential-manager'
+  # tap 'microsoft/git', trusted: true
+  # cask 'git-credential-manager'
 
   # A framework for managing and maintaining multi-language pre-commit hooks
   brew 'pre-commit'
