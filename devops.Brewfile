@@ -19,10 +19,6 @@ cask_args appdir: '/Applications'
   brew 'clawscli/tap/claws'
   # This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances
   cask 'session-manager-plugin'
-  # This plugin helps you to use the AWS Command Line Interface (AWS CLI) to start and end sessions to your managed instances
-  tap 'disneystreaming/tap', trusted: true
-  # Help manage AWS systems manager with helpers
-  brew 'disneystreaming/tap/ssm-helpers'
 ### }}}
 
 
