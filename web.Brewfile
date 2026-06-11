@@ -8,9 +8,9 @@ cask_args appdir: '/Applications'
 
 ### Web Browser {{{
   # Google Chrome Developer Edition
-  cask 'google-chrome-dev'
+  cask 'google-chrome@dev'
   # Mozilla Firefox Developer Edition
-  cask 'firefox-developer-edition'
+  cask 'firefox@developer-edition'
   # Chromium based browser
   cask 'arc'
   # Web browser focusing on privacy
