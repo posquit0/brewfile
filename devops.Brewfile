@@ -27,8 +27,8 @@ cask_args appdir: '/Applications'
   # Tool to build, change, and version infrastructure
   # brew 'terraform'
   # A CLI tool to switch between different versions of terraform
-  tap 'warrensbox/tap', trusted: true
-  brew 'tfswitch'
+  # tap 'warrensbox/tap', trusted: true
+  # brew 'tfswitch'
   # A Terraform Automation and Collaboration Software credentials helper
   tap 'tonedefdev/terracreds', trusted: true
   brew 'terracreds'
