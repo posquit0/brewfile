@@ -10,7 +10,7 @@ cask_args appdir: '/Applications'
   # Universal Command Line Interface for AWS
   brew 'awscli'
   # A vault for securely storing and accessing AWS credentials in development environments
-  cask 'aws-vault'
+  brew 'aws-vault'
   # A terminal-based AWS resource viewer and manager
   tap 'huseyinbabal/tap', trusted: true
   brew 'huseyinbabal/tap/taws'
