@@ -40,7 +40,7 @@ cask_args appdir: '/Applications'
   # Calendar software focusing on flexibility and reliability
   # cask 'busycal'
   # Calendar for professionals and teams
-  cask 'notion-calendar'
+  # cask 'notion-calendar'
 
   # Time blocking platform to save 2 hours every day
   cask 'akiflow'
