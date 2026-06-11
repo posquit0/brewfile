@@ -44,6 +44,9 @@ cask_args appdir: '/Applications'
 
 
 ### Gemini {{{
+  # Native desktop AI assistant from Google
+  cask 'google-gemini'
+
   # Interact with Google Gemini AI models from the command-line
   brew 'gemini-cli'
 ### }}}
