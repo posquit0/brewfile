@@ -11,7 +11,7 @@ cask_args appdir: '/Applications'
   tap 'xwmx/taps', trusted: true
   brew 'xwmx/taps/nb'
   # A focused, flexible notes app
-  mas 'Bear', id: 1091189122
+  # mas 'Bear', id: 1091189122
   # Easy note-taking & annotation
   mas 'Notability', id: 360593530
   # Knowledge base that works on top of a local folder of plain text Markdown files
