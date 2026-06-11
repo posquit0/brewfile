@@ -44,6 +44,5 @@ cask_args appdir: '/Applications'
 
 ### News {{{
   # Hacker News in the terminal
-  tap 'ggerganov/ggerganov', trusted: true
-  brew 'hnterm'
+  brew 'circumflex'
 ### }}}
