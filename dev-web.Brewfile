@@ -23,6 +23,8 @@ cask_args appdir: '/Applications'
 ### GUI {{{
   # Powerful HTTP and GraphQL tool belt
   cask 'insomnia'
+  # Open source IDE for exploring and testing APIs
+  cask 'bruno'
   # HTTP client that helps testing and describing APIs for Mac
   cask 'rapidapi' if OS.mac?
 ### }}}
