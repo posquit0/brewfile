@@ -7,6 +7,6 @@
 cask_args appdir: '/Applications'
 
 ### Emulator {{{
-  # Retro video game emulation
-  cask 'openemu'
+  # Frontend for emulators, game engines and media players
+  cask 'retroarch'
 ### }}}

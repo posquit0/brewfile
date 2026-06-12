@@ -10,8 +10,6 @@ cask_args appdir: '/Applications'
   ## Viewer
   # Streamlined and convenient image viewer and browser
   cask 'xee' if OS.mac?
-  # Practical and minimal image viewer
-  cask 'qview'
 
   ## Editor
   # Simple, powerfule editing tools
@@ -20,8 +18,6 @@ cask_args appdir: '/Applications'
   ## Utility
   # Perl lib for reading and writing EXIF metadata
   brew 'exiftool'
-  # Powerful yet simple to use screenshot software
-  cask 'flameshot'
   # The ultimate screenshotting tool for Mac
   cask 'shottr'
 ### }}}
