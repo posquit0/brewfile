@@ -18,8 +18,8 @@ cask_args appdir: '/Applications'
 ### Menu Bar {{{
   # A powerful menu bar browser
   mas 'MenubarX', id: 1575588022
-  # Organize the menu bar icons
-  cask 'bartender' if OS.mac?
+  # Menu bar manager (free and open-source)
+  cask 'jordanbaird-ice' if OS.mac?
 
   # The most awesome keep-awake app
   mas 'Amphetamine', id: 937984704

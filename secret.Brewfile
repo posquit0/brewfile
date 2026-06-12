@@ -53,8 +53,4 @@ cask_args appdir: '/Applications'
   mas 'Okta Verify', id: 490179405
   # Application for configuring any YubiKey
   # cask 'yubico-yubikey-manager'
-
-  # Free security app for mobile phones and computers
-  # Digital signature manager
-  cask 'keybase'
 ### }}}
