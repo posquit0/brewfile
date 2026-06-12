@@ -91,4 +91,4 @@ Like brewfile? Follow the repository on [GitHub](https://github.com/posquit0/bre
 
 Provided under the terms of the [MIT License](https://github.com/posquit0/brewfile/blob/main/LICENSE).
 
-Copyright © 2018-2023, [Byungjin Park](https://www.posquit0.com).
+Copyright © 2018-2026, [Byungjin Park](https://www.posquit0.com).
