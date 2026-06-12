@@ -38,7 +38,7 @@ cask_args appdir: '/Applications'
 
   ## Transcoder
   # Open-source video transcoder available for Linux, Mac, and Windows
-  cask 'handbrake'
+  cask 'handbrake-app'
 ### }}}
 
 

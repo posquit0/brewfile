@@ -30,7 +30,7 @@ cask_args appdir: '/Applications'
 
 ### Task Management {{{
   # App to manage software development and track bugs
-  cask 'linear-linear'
+  cask 'linear'
 ### }}}
 
 
