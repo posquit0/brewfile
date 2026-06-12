@@ -12,8 +12,7 @@
 
 ### Solidity {{{
   # Contract-oriented programming language
-  tap 'ethereum/ethereum', trusted: true
-  brew 'ethereum/ethereum/solidity'
+  brew 'solidity'
 ### }}}
 
 

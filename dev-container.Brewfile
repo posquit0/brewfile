@@ -62,8 +62,7 @@ cask_args appdir: '/Applications'
   # Multi pod and container log tailing for Kubernetes
   brew 'stern'
   # Bulk port forwarding Kubernetes services for local development
-  tap 'txn2/tap', trusted: true
-  brew 'txn2/tap/kubefwd'
+  brew 'kubefwd'
 
   ## Cluster Provisioning
   # Production Grade K8s Installation, Upgrades, and Management

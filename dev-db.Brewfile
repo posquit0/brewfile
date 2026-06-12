@@ -34,8 +34,7 @@ cask_args appdir: '/Applications'
   # Publish-subscribe messaging rethought as a distributed commit log
   brew 'kafka'
   # Modern CLI for Apache Kafka, written in Go
-  tap 'birdayz/kaf', trusted: true
-  brew 'birdayz/kaf/kaf'
+  brew 'kaf'
 ### }}}
 
 

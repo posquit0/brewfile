@@ -33,19 +33,16 @@ cask_args appdir: '/Applications'
   tap 'tonedefdev/terracreds', trusted: true
   brew 'tonedefdev/terracreds/terracreds', trusted: true
   # Update version constraints in your Terraform configuration
-  tap 'minamijoyo/tfupdate', trusted: true
-  brew 'minamijoyo/tfupdate/tfupdate'
+  brew 'tfupdate'
   # Interactivity select resource to plan / apply / destroy with target option
   tap 'future-architect/tap', trusted: true
   brew 'future-architect/tap/tftarget', trusted: true
   # Automatic Terraform moved blocks
-  tap 'busser/tap', trusted: true
-  brew 'busser/tap/tfautomv'
+  brew 'tfautomv'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
   # A schema inspector for Terraform providers
-  tap 'minamijoyo/tfschema', trusted: true
-  brew 'minamijoyo/tfschema/tfschema'
+  brew 'tfschema'
   # Display your Terraform module call stack in your terminal
   tap 'busser/tap', trusted: true
   brew 'busser/tap/tftree'
@@ -114,11 +111,12 @@ cask_args appdir: '/Applications'
 
 
 ### Kubernetes {{{
-  tap 'argoproj/tap', trusted: true
   # CLI for ArgoCD
-  brew 'argoproj/tap/argocd'
+  brew 'argocd'
   # CLI for Argo Workflow
-  brew 'argoproj/tap/argo'
+  brew 'argo'
+  # Kubectl plugin for Argo Rollouts
+  tap 'argoproj/tap', trusted: true
   brew 'argoproj/tap/kubectl-argo-rollouts'
 
   # Istio configuration command-line utility
