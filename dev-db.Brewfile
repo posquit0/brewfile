@@ -19,7 +19,7 @@ cask_args appdir: '/Applications'
   # MySQL
   brew 'mysql'
   # PostgreSQL
-  brew 'postgresql'
+  brew 'postgresql@18'
 ### }}}
 
 
