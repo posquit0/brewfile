@@ -146,8 +146,8 @@ cask_args appdir: '/Applications'
   # Personal information dashboard for your Terminal
   brew 'wtfutil'
 
-  # Simplified and community-driven man pages
-  brew 'tldr'
+  # Official tldr client written in Rust
+  brew 'tlrc'
   # Create and view interactive cheatsheets on the command-line
   brew 'cheat'
   # Record and share your terminal sessions, the simple way
