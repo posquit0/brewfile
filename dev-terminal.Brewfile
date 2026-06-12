@@ -102,8 +102,9 @@ cask_args appdir: '/Applications'
 
 
   ## Compress
-  # 7-Zip (high compression file archiver) implementation
-  brew 'p7zip'
+  # 7-Zip is a file archiver with a high compression ratio
+  # INFO: The binary is `7zz`, not `7z`
+  brew 'sevenzip'
   # General-purpose data compression with high compression ratio
   brew 'xz'
 
@@ -128,8 +129,6 @@ cask_args appdir: '/Applications'
   brew 'htop'
   # Display an interface's bandwidth usage
   brew 'iftop'
-  # Top-like interface for container metrics
-  brew 'ctop'
   # Glances an Eye on your system
   brew 'glances'
   # A dynamic real-time view of running eBPF programs
