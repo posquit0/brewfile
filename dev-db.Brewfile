@@ -35,7 +35,7 @@ cask_args appdir: '/Applications'
   brew 'kafka'
   # Modern CLI for Apache Kafka, written in Go
   tap 'birdayz/kaf', trusted: true
-  brew 'kaf'
+  brew 'birdayz/kaf/kaf'
 ### }}}
 
 

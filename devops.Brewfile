@@ -31,36 +31,36 @@ cask_args appdir: '/Applications'
   # brew 'tfswitch'
   # A Terraform Automation and Collaboration Software credentials helper
   tap 'tonedefdev/terracreds', trusted: true
-  brew 'terracreds'
+  brew 'tonedefdev/terracreds/terracreds', trusted: true
   # Update version constraints in your Terraform configuration
   tap 'minamijoyo/tfupdate', trusted: true
-  brew 'tfupdate'
+  brew 'minamijoyo/tfupdate/tfupdate'
   # Interactivity select resource to plan / apply / destroy with target option
   tap 'future-architect/tap', trusted: true
-  brew 'tftarget'
+  brew 'future-architect/tap/tftarget', trusted: true
   # Automatic Terraform moved blocks
   tap 'busser/tap', trusted: true
-  brew 'tfautomv'
+  brew 'busser/tap/tfautomv'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
   # A schema inspector for Terraform providers
   tap 'minamijoyo/tfschema', trusted: true
-  brew 'tfschema'
+  brew 'minamijoyo/tfschema/tfschema'
   # Display your Terraform module call stack in your terminal
   tap 'busser/tap', trusted: true
-  brew 'tftree'
+  brew 'busser/tap/tftree'
   # Thin wrapper for Terraform e.g. for locking state
   brew 'terragrunt'
   # Terraform linter for detecting errors that can not be detected by `terraform plan`
-  tap 'terraform-linters/tap'
+  tap 'terraform-linters/tap', trusted: true
   cask 'terraform-linters/tap/tflint'
   # Security scanner for your Terraform code
   # brew 'tfsec'
   # Interactive TUI for performing Terraform workflows
-  tap 'SayYoungMan/tap' #, trusted: true
+  tap 'SayYoungMan/tap', trusted: true
   cask 'SayYoungMan/tap/tfui'
   # Drive terraform at terminal velocity
-  tap 'leg100/tap', trusted: true
+  # tap 'leg100/tap', trusted: true
   brew 'pug'
   # Cost estimates for Terraform
   brew 'infracost'
@@ -69,7 +69,7 @@ cask_args appdir: '/Applications'
 
 ### HashiCorp: Packer {{{
   # Tool for creating identical machine images for multiple platforms
-  brew 'packer'
+  brew 'hashicorp/tap/packer'
 ### }}}
 
 
@@ -84,15 +84,15 @@ cask_args appdir: '/Applications'
 ### HashiCorp: Boundary {{{
   # Identity-based access management for dynamic infrastructure.
   brew 'hashicorp/tap/boundary'
-  cask 'hashicorp/tap/hashicorp-boundary-desktop'
+  # cask 'hashicorp/tap/hashicorp-boundary-desktop'
 ### }}}
 
 
 ### HashiCorp: Consul {{{
   # A distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed infrastructure.
-  brew 'hashicorp/tap/consul'
+  # brew 'hashicorp/tap/consul'
   # First-class support for Consul Service Mesh on Kubernetes 
-  brew 'hashicorp/tap/consul-k8s'
+  # brew 'hashicorp/tap/consul-k8s'
 ### }}}
 
 
@@ -116,10 +116,10 @@ cask_args appdir: '/Applications'
 ### Kubernetes {{{
   tap 'argoproj/tap', trusted: true
   # CLI for ArgoCD
-  brew 'argocd'
+  brew 'argoproj/tap/argocd'
   # CLI for Argo Workflow
-  brew 'argo'
-  brew 'kubectl-argo-rollouts'
+  brew 'argoproj/tap/argo'
+  brew 'argoproj/tap/kubectl-argo-rollouts'
 
   # Istio configuration command-line utility
   brew 'istioctl'
@@ -142,10 +142,6 @@ cask_args appdir: '/Applications'
 
 
 ### MISC {{{
-  # Artificial Intelligence Infrastructure-as-Code Generator
-  tap 'gofireflyio/aiac', trusted: true
-  brew 'aiac'
-
   # Develop and deploy code with zero configuration
   brew 'railway'
 ### }}}

@@ -33,7 +33,7 @@ cask_args appdir: '/Applications'
 
   # Share your terminal as a web application
   tap 'sorenisanerd/gotty', trusted: true
-  brew 'gotty'
+  brew 'sorenisanerd/gotty/gotty'
 ### }}}
 
 
