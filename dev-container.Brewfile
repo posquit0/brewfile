@@ -26,7 +26,6 @@ cask_args appdir: '/Applications'
   brew 'k9s'
   
   # The Kubernetes package manager
-  tap 'helm/tap', trusted: true
   brew 'helm'
   # A declarative spec for deploying Helm charts
   brew 'helmfile'
@@ -47,7 +46,7 @@ cask_args appdir: '/Applications'
   brew 'kubectx'
   # The single pane of glass for all of your kubeconfig files.
   tap 'danielfoehrkn/switch', trusted: true
-  brew 'switch'
+  brew 'danielfoehrkn/switch/switch'
   # Plugin for kubectl OpenID Connect authentication
   brew 'kubelogin'
   # Kubernetes Native Policy Management
@@ -59,12 +58,12 @@ cask_args appdir: '/Applications'
   ## Monitoring & Debugging
   # Kubernetes log viewer
   # tap 'boz/repo', trusted: true
-  # brew 'kail'
+  # brew 'boz/repo/kail'
   # Multi pod and container log tailing for Kubernetes
   brew 'stern'
   # Bulk port forwarding Kubernetes services for local development
   tap 'txn2/tap', trusted: true
-  brew 'kubefwd'
+  brew 'txn2/tap/kubefwd'
 
   ## Cluster Provisioning
   # Production Grade K8s Installation, Upgrades, and Management
