@@ -35,6 +35,8 @@ cask_args appdir: '/Applications'
 ### Claude {{{
   # Anthropic's official Claude AI desktop app
   cask 'claude'
+  # Terminal-based AI coding assistant
+  cask 'claude-code@latest'
 
   # Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp
   brew 'claude-squad'
