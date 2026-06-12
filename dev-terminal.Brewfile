@@ -28,8 +28,6 @@ cask_args appdir: '/Applications'
   brew 'screen'
   # A terminal multiplexer, allowing to access multiple separate terminal sessions
   brew 'tmux'
-  # Reattach process (e.g., tmux) to background
-  brew 'reattach-to-user-namespace'
 
   # Share your terminal as a web application
   tap 'sorenisanerd/gotty', trusted: true
