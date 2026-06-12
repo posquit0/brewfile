@@ -57,23 +57,9 @@ cask_args appdir: '/Applications'
 
 
 ### Font Family: Terminal {{{
-  ## Font Family: Powerline
-  cask 'font-anonymice-powerline'
-  cask 'font-consolas-for-powerline'
-  cask 'font-dejavu-sans-mono-for-powerline'
-  cask 'font-droid-sans-mono-for-powerline'
-  cask 'font-fira-mono-for-powerline'
-  cask 'font-inconsolata-for-powerline'
-  cask 'font-liberation-mono-for-powerline'
-  cask 'font-menlo-for-powerline'
-  cask 'font-meslo-for-powerline'
-  cask 'font-monofur-for-powerline'
-  cask 'font-noto-mono-for-powerline'
-  cask 'font-roboto-mono-for-powerline'
-  cask 'font-source-code-pro-for-powerline'
-  cask 'font-ubuntu-mono-derivative-powerline'
-
   ## Font Family: Nerd Font
+  # INFO: Nerd Fonts include all Powerline glyphs, superseding the
+  # unmaintained powerline/fonts patched fonts
   cask 'font-ubuntu-mono-nerd-font'
   cask 'font-sauce-code-pro-nerd-font'
   cask 'font-roboto-mono-nerd-font'
