@@ -25,8 +25,8 @@ cask_args appdir: '/Applications'
   ## Git Extension
   # Git extension for versioning large files
   brew 'git-lfs'
-  # Extensions to follow Vincent Driessen's branching model
-  brew 'git-flow'
+  # Modern implementation of the Git-flow branching model
+  brew 'git-flow-next'
   # Small git utilities
   brew 'git-extras'
 
@@ -41,8 +41,8 @@ cask_args appdir: '/Applications'
   ## Git Utility
   # Prevents you from committing sensitive information to a git repo
   brew 'git-secrets'
-  # Remove crazy big files, passwords, credentials and other private data
-  brew 'bfg'
+  # Quickly rewrite git repository history (recommended replacement for bfg & git-filter-branch)
+  brew 'git-filter-repo'
 
   # Git credential helper interfacing with pass
   # brew 'pass-git-helper'
