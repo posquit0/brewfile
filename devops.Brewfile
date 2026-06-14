@@ -116,9 +116,9 @@ cask_args appdir: '/Applications'
 ### Kubernetes {{{
   tap 'argoproj/tap', trusted: true
   # CLI for ArgoCD
-  brew 'argoproj/tap/argocd'
+  brew 'argocd'
   # CLI for Argo Workflow
-  brew 'argoproj/tap/argo'
+  brew 'argo'
   brew 'argoproj/tap/kubectl-argo-rollouts'
 
   # Istio configuration command-line utility
