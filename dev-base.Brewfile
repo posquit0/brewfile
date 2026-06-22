@@ -33,6 +33,8 @@ cask_args appdir: '/Applications'
   brew 'yq'
   # Linter for YAML files
   brew 'yamllint'
+  # Extensible command-line tool to format YAML files
+  brew 'yamlfmt'
 
   ## Node.js & Javascript
   # Platform built on V8 to build network applications
