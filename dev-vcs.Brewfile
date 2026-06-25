@@ -41,6 +41,8 @@ cask_args appdir: '/Applications'
   ## Git Utility
   # Prevents you from committing sensitive information to a git repo
   brew 'git-secrets'
+  # Audit git repos for secrets
+  brew 'gitleaks'
   # Quickly rewrite git repository history (recommended replacement for bfg & git-filter-branch)
   brew 'git-filter-repo'
 
