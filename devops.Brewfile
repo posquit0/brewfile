@@ -26,12 +26,9 @@ cask_args appdir: '/Applications'
   tap 'hashicorp/tap', trusted: true
   # Tool to build, change, and version infrastructure
   # brew 'terraform'
-  # A CLI tool to switch between different versions of terraform
-  # tap 'warrensbox/tap', trusted: true
-  # brew 'tfswitch'
-  # A Terraform Automation and Collaboration Software credentials helper
-  tap 'tonedefdev/terracreds', trusted: true
-  brew 'tonedefdev/terracreds/terracreds', trusted: true
+  # A Terraform credentials helper to fetch secrets from several secret backends.
+  tap 'tedilabs/tap', trusted: true
+  brew 'tedilabs/tap/tfvault', trusted: true
   # Update version constraints in your Terraform configuration
   tap 'minamijoyo/tfupdate', trusted: true
   brew 'minamijoyo/tfupdate/tfupdate'
