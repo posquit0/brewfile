@@ -56,6 +56,8 @@ cask_args appdir: '/Applications'
   brew 'pre-commit'
   # Syntax-highlighting pager for git and diff output
   brew 'git-delta'
+  # Review-first terminal diff viewer for agentic coders
+  brew 'hunk'
 ### }}}
 
 
