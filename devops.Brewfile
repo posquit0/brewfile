@@ -27,8 +27,9 @@ cask_args appdir: '/Applications'
   # Tool to build, change, and version infrastructure
   # brew 'terraform'
   # A Terraform credentials helper to fetch secrets from several secret backends.
-  tap 'tedilabs/tap', trusted: true
-  brew 'tedilabs/tap/tfvault', trusted: true
+  # Managed by mise, see `.config/mise/config.toml`.
+  # tap 'tedilabs/tap', trusted: true
+  # brew 'tedilabs/tap/tfvault', trusted: true
   # Update version constraints in your Terraform configuration
   tap 'minamijoyo/tfupdate', trusted: true
   brew 'minamijoyo/tfupdate/tfupdate'
