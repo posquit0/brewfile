@@ -18,6 +18,8 @@ cask_args appdir: '/Applications'
   cask 'kiro'
   # AI-powered productivity tool for the command-line
   cask 'kiro-cli'
+  # Persistent AI development workspace with multi-agent support
+  cask 'kirocrew'
 ### }}}
 
 
@@ -36,8 +38,6 @@ cask_args appdir: '/Applications'
   # Terminal-based AI coding assistant
   cask 'claude-code@latest'
 
-  # Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp
-  brew 'claude-squad'
   # Claude code parallelisation
   cask 'conductor'
 ### }}}
@@ -59,8 +59,8 @@ cask_args appdir: '/Applications'
 
 
 ### Utility {{{
-  # Ghostty-based terminal with vertical tabs and notifications for AI coding agents
-  cask 'cmux'
+  # Agent multiplexer that lives in your terminal
+  brew 'herdr'
   # Menu bar usage monitor for AI Providers like Codex and Claude
   cask 'codexbar'
 ### }}}
