@@ -26,6 +26,8 @@ cask_args appdir: '/Applications'
   tap 'hashicorp/tap', trusted: true
   # Tool to build, change, and version infrastructure
   # brew 'terraform'
+  # Manage HCP Terraform and Terraform Enterprise from the command line
+  brew 'hashicorp/tap/tfctl'
   # A Terraform credentials helper to fetch secrets from several secret backends.
   # Managed by mise, see `.config/mise/config.toml`.
   # tap 'tedilabs/tap', trusted: true
