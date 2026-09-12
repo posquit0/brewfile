@@ -18,7 +18,7 @@ cask_args appdir: '/Applications'
   # Team communication and collaboration software
   mas 'Slack for Desktop', id: 803453959
   # Video communication and virtual meeting platform
-  cask 'zoom'
+  # cask 'zoom'
 ### }}}
 
 
