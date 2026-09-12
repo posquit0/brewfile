@@ -93,4 +93,7 @@ cask_args appdir: '/Applications'
   # Oracle VirtualBox
   # INFO: Need to enable their kernel extension
   cask 'virtualbox'
+  # Run macOS and Linux VMs on Apple Silicon
+  tap 'openai/tools', trusted: { formulae: ['tart', 'softnet'] }
+  brew 'openai/tools/tart'
 ### }}}
