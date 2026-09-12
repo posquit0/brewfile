@@ -52,8 +52,9 @@ cask_args appdir: '/Applications'
   # Thin wrapper for Terraform e.g. for locking state
   brew 'terragrunt'
   # Terraform linter for detecting errors that can not be detected by `terraform plan`
-  tap 'terraform-linters/tap', trusted: true
-  cask 'terraform-linters/tap/tflint'
+  # Managed by mise, see `.config/mise/config.toml`.
+  # tap 'terraform-linters/tap', trusted: true
+  # cask 'terraform-linters/tap/tflint'
   # Security scanner for your Terraform code
   # brew 'tfsec'
   # Interactive TUI for performing Terraform workflows
@@ -75,7 +76,7 @@ cask_args appdir: '/Applications'
 
 ### HashiCorp: Vagrant {{{
   # Tool for building and managing virtual machine environments
-  cask 'hashicorp/tap/hashicorp-vagrant'
+  cask 'vagrant'
   # Manage your vagrant machines in one place
   # cask 'vagrant-manager'
 ### }}}
