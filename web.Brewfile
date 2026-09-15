@@ -13,8 +13,6 @@ cask_args appdir: '/Applications'
   cask 'firefox@developer-edition'
   # Chromium based browser
   # cask 'arc'
-  # OpenAI's official browser with ChatGPT built in
-  cask 'chatgpt-atlas'
   # Web browser focusing on privacy
   cask 'duckduckgo'
 
