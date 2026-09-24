@@ -16,6 +16,8 @@ cask_args appdir: '/Applications'
   brew 'dive'
   # The lazier way to manage everything docker
   brew 'lazydocker'
+  # Top-like interface for container metrics
+  brew 'ctop'
 ### }}}
 
 
