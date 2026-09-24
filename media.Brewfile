@@ -10,8 +10,8 @@ cask_args appdir: '/Applications'
   ## Viewer
   # Streamlined and convenient image viewer and browser
   cask 'xee' if OS.mac?
-  # Practical and minimal image viewer
-  cask 'qview'
+  # Waterfall-style image viewer for macOS, offering a smooth and immersive browsing experience.
+  cask 'flowvision' if OS.mac?
 
   ## Editor
   # Simple, powerfule editing tools
