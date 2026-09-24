@@ -33,8 +33,7 @@ cask_args appdir: '/Applications'
   # tap 'tedilabs/tap', trusted: true
   # brew 'tedilabs/tap/tfvault', trusted: true
   # Update version constraints in your Terraform configuration
-  tap 'minamijoyo/tfupdate', trusted: true
-  brew 'minamijoyo/tfupdate/tfupdate'
+  brew 'tfupdate'
   # Interactivity select resource to plan / apply / destroy with target option
   tap 'future-architect/tap', trusted: true
   brew 'future-architect/tap/tftarget', trusted: true
@@ -44,8 +43,7 @@ cask_args appdir: '/Applications'
   # Tool to generate documentation from Terraform modules
   brew 'terraform-docs'
   # A schema inspector for Terraform providers
-  tap 'minamijoyo/tfschema', trusted: true
-  brew 'minamijoyo/tfschema/tfschema'
+  brew 'tfschema'
   # Display your Terraform module call stack in your terminal
   tap 'busser/tap', trusted: true
   brew 'busser/tap/tftree'
