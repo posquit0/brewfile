@@ -47,8 +47,8 @@ cask_args appdir: '/Applications'
   # Native desktop AI assistant from Google
   cask 'google-gemini'
 
-  # Interact with Google Gemini AI models from the command-line
-  brew 'gemini-cli'
+  # Terminal interface for Antigravity agents
+  cask 'antigravity-cli'
 ### }}}
 
 
