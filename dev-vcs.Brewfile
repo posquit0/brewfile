@@ -45,6 +45,8 @@ cask_args appdir: '/Applications'
   brew 'gitleaks'
   # Quickly rewrite git repository history (recommended replacement for bfg & git-filter-branch)
   brew 'git-filter-repo'
+  # Remove large files or passwords from Git history like git-filter-branch
+  brew 'bfg'
 
   # Git credential helper interfacing with pass
   # brew 'pass-git-helper'
@@ -56,8 +58,6 @@ cask_args appdir: '/Applications'
   brew 'pre-commit'
   # Syntax-highlighting pager for git and diff output
   brew 'git-delta'
-  # Review-first terminal diff viewer for agentic coders
-  brew 'hunk'
 ### }}}
 
 
