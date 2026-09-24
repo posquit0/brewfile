@@ -8,8 +8,8 @@ cask_args appdir: '/Applications'
 
 
 ### CLI {{{
-  # User-friendly cURL replacement (command-line HTTP client)
-  # brew 'httpie'
+  # Friendly and fast tool for sending HTTP requests (httpie alternative)
+  brew 'xh'
   
   # Next generation open source RPC library and framework
   brew 'grpc'
@@ -17,6 +17,8 @@ cask_args appdir: '/Applications'
   brew 'grpcurl'
   # An interactive web UI for gRPC, along the lines of postman
   brew 'grpcui'
+  # Configurable static site generator
+  brew 'hugo'
 ### }}}
 
 
