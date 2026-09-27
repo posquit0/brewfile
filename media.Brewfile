@@ -35,6 +35,8 @@ cask_args appdir: '/Applications'
   cask 'iina'
 
   ## Transcoder
+  # Play, record, convert, and stream select audio and video codecs
+  brew 'ffmpeg'
   # Open-source video transcoder available for Linux, Mac, and Windows
   cask 'handbrake-app'
 ### }}}
