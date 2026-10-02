@@ -22,6 +22,12 @@ cask_args appdir: '/Applications'
 ### }}}
 
 
+### Oracle Cloud Infrastructure {{{
+  # Command-line interface for Oracle Cloud Infrastructure
+  brew 'oci-cli'
+### }}}
+
+
 ### HashiCorp: Terraform {{{
   tap 'hashicorp/tap', trusted: true
   # Tool to build, change, and version infrastructure
