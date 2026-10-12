@@ -14,7 +14,7 @@ cask_args appdir: '/Applications'
   cask 'ghostty'
 
   # Terminal Emulator for macOS
-  cask 'iterm2' if OS.mac?
+  # cask 'iterm2' if OS.mac?
   # A GPU-accelerated cross-platform terminal emulator and multiplexer
   cask 'wezterm'
 ### }}}
@@ -139,7 +139,7 @@ cask_args appdir: '/Applications'
   # Manage your dotfiles across multiple diverse machines, securely
   brew 'chezmoi'
   # Load/unload environment variables based on $PWD
-  brew 'direnv'
+  # brew 'direnv'
   # Personal information dashboard for your Terminal
   brew 'wtfutil'
 
