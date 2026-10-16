@@ -37,9 +37,6 @@ cask_args appdir: '/Applications'
   cask 'claude'
   # Terminal-based AI coding assistant
   cask 'claude-code@latest'
-
-  # Claude code parallelisation
-  cask 'conductor'
 ### }}}
 
 
