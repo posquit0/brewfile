@@ -58,6 +58,8 @@ cask_args appdir: '/Applications'
 ### Utility {{{
   # Agent multiplexer that lives in your terminal
   brew 'herdr'
+  # Desktop app for terminals and coding agents
+  cask 'herdr-app'
   # Menu bar usage monitor for AI Providers like Codex and Claude
   cask 'codexbar'
 ### }}}
