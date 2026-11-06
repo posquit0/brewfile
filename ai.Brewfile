@@ -45,7 +45,7 @@ cask_args appdir: '/Applications'
   cask 'google-gemini'
 
   # Terminal interface for Antigravity agents
-  cask 'antigravity-cli'
+  # cask 'antigravity-cli'
 ### }}}
 
 
