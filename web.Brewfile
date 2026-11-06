@@ -19,7 +19,7 @@ cask_args appdir: '/Applications'
   # TUI web browser with CSS, inline image and JavaScript support
   brew 'chawan'
   # A real browser inside your terminal
-  brew 'terminal-browser'
+  cask 'terminal-browser'
 ### }}}
 
 
