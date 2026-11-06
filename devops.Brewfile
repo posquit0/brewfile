@@ -67,6 +67,9 @@ cask_args appdir: '/Applications'
   # Drive terraform at terminal velocity
   # tap 'leg100/tap', trusted: true
   brew 'pug'
+  # A powerful interactive TUI and scriptable CLI for HCP Terraform and Terraform Enterprise.
+  tap 'straubt1/tap', trusted: true
+  brew 'straubt1/tap/tfx'
   # Cost estimates for Terraform
   brew 'infracost'
 ### }}}
